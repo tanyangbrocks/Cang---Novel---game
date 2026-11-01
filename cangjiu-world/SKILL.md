@@ -31,3 +31,5 @@ description: 主持《蒼究世界》的沉浸式故事冒險與沉浸式命運R
 `python scripts/game.py --help` 提供本地開局配點、面板、D100、事件提交、核對及匯出。JSON參數以UTF-8檔案傳入，避免殼層引號破壞。由GPT在自身可用的檔案環境執行工具，玩家不需安裝Python；`--root` 指向該局可寫入的存檔根目錄；套件不自動安裝到個人Skills資料夾。預設根目錄為套件旁的 `campaigns`，每份保存含完整快照、事件與已保存檢定。
 
 包內公開遊玩正典使用 `python scripts/canon.py search 關鍵字`、`read 來源ID`；詳見正典入口。請確認來源指紋，檔案更新時不默默沿用舊索引。工具只做可機械驗證的檢查，不宣稱已證明全部世界因果正確。
+
+創角時讀[創角表單與匯入](references/character-creation.md)，提供自訂即時輸入、角色檔匯入與完全隨機入口。可重用表單在assets/character-creator.html。

@@ -17,3 +17,5 @@
 專案位置、共用設定、程式進度與個別遊戲存檔是不同資料。各聊天開始時重新讀取可存取的最新文件；沒有工具就依使用者提供的檔案，不假裝同步。遊玩產生的事件屬於該局，不能自動升格為世界正典。作者新增裁定應另記並同步正式規則。
 
 驗證：python -m unittest discover -s cangjiu-world/tests -v；python tools/check_release.py；python tools/build_release.py。
+
+創角新增character-creation.md與assets/character-creator.html：條件式自訂欄位、JSON/TXT/MD角色匯入、完整保留原始資料及JSON下載。完全隨機按鈕產生主持抽樣請求，離線表單不自行抽取正典。原聊天生成的表單不會自動替換；HTML需在瀏覽器開啟。

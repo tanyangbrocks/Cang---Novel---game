@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>蒼究世界・創角</title>
+<style>body{font:17px system-ui;background:#f5f3ef;color:#242827;margin:0}main{max-width:680px;margin:32px auto;padding:28px;background:white;border-radius:20px}label{display:block;margin:18px 0 6px}input,select,textarea,button{font:inherit;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:9px}input,select,textarea{width:100%}textarea{min-height:100px}button{cursor:pointer;background:#edf2ef;margin:8px 8px 0 0}button[type=submit]{background:#244e40;color:white}small{color:#666}pre{white-space:pre-wrap;overflow-wrap:anywhere} [hidden]{display:none!important}</style>
+<main><h1>你的故事，從這裡開始</h1><p>填寫角色，或帶上你已有的設定。</p>
+<button id="importButton" type="button">匯入角色設定檔</button><input id="file" type="file" accept=".json,.txt,.md,text/plain,application/json" hidden>
+<button id="random" type="button">完全隨機</button>
+<form id="creator"><label for="mode">遊玩模式</label><select id="mode"><option value="story">沉浸式故事冒險</option><option value="rpg">沉浸式命運RPG</option></select>
+<label for="name">姓名</label><input id="name" placeholder="你的名字、稱號或代號">
+<label for="species">種族</label><select id="species"><option>人族</option><option>龍族</option><option>鬼族</option><option>精靈族</option><option value="custom">其他／自訂</option></select>
+<div id="speciesBox" hidden><label for="speciesCustom">自訂種族</label><input id="speciesCustom" placeholder="填寫種族名稱或描述"></div>
+<label for="age">年齡</label><input id="age" placeholder="例如：18歲，或依種族描述">
+<label for="background">身分與背景</label><textarea id="background"></textarea>
+<label for="appearance">外貌</label><textarea id="appearance"></textarea>
+<label for="abilities">初始能力</label><textarea id="abilities" placeholder="可留空"></textarea>
+<label for="items">初始物品</label><textarea id="items" placeholder="可留空"></textarea>
+<label for="opening">開局方式</label><select id="opening"><option value="host">由主持安排</option><option value="custom">自訂開局</option></select>
+<div id="openingBox" hidden><label for="openingCustom">你想如何開始？</label><textarea id="openingCustom" placeholder="描述地點、處境或希望的開場"></textarea></div>
+<button type="submit">預覽角色</button></form>
+<p id="notice" role="status"></p><section id="preview" hidden><h2>角色預覽</h2><pre id="summary"></pre><button id="download" type="button">下載設定檔</button><p><small>將設定檔交給遊戲主持，確認後開始。完全隨機請求會由主持抽取並提供預覽。</small></p></section></main>
+<script>
+'use strict';
+const el=id=>document.getElementById(id); let imported=null, output=null;
+function sync(){for(const key of ['species','opening']){const custom=el(key).value==='custom';el(key+'Box').hidden=!custom;el(key+'Custom').required=custom;}}
+for(const key of ['species','opening'])el(key).addEventListener('change',sync);
+function show(data){output=data;el('summary').textContent=JSON.stringify(data,null,2);el('preview').hidden=false;el('notice').textContent='已產生預覽，尚未開始遊戲。';}
+el('creator').addEventListener('submit',e=>{e.preventDefault();const data={schema:'cangjiu-character-v1',mode:el('mode').value};for(const key of ['name','age','background','appearance','abilities','items'])data[key]=el(key).value.trim();data.species=el('species').value==='custom'?el('speciesCustom').value.trim():el('species').value;data.opening=el('opening').value==='custom'?el('openingCustom').value.trim():'由主持安排';if(imported!==null)data.imported_source=imported;show(data);});
+el('random').addEventListener('click',()=>show({schema:'cangjiu-character-v1',mode:el('mode').value,request:'fully_random',instruction:'請依正典隨機產生完整角色與開局，先提供可修改預覽，確認後開始。'}));
+el('importButton').addEventListener('click',()=>el('file').click());
+el('file').addEventListener('change',async()=>{const file=el('file').files[0];if(!file)return;try{if(file.size>2*1024*1024)throw Error('請選擇2MB以內的角色設定檔。');const text=await file.text();let data;if(file.name.toLowerCase().endsWith('.json')){data=JSON.parse(text);if(!data||typeof data!=='object'||Array.isArray(data))throw Error('JSON需為角色資料物件。');}else data={raw_character_text:text};imported=data;for(const key of ['name','age','background','appearance','abilities','items'])el(key).value=typeof data[key]==='string'||typeof data[key]==='number'?String(data[key]):data[key]?JSON.stringify(data[key],null,2):'';if(['story','rpg'].includes(data.mode))el('mode').value=data.mode;if(data.species){const value=String(data.species);el('species').value=['人族','龍族','鬼族','精靈族'].includes(value)?value:'custom';el('speciesCustom').value=value;}if(data.opening){el('opening').value='custom';el('openingCustom').value=typeof data.opening==='string'?data.opening:JSON.stringify(data.opening);}sync();show({schema:'cangjiu-character-v1',mode:el('mode').value,imported_source:data});el('notice').textContent='已匯入，原始內容完整保留。可修改欄位並重新預覽；文字設定由主持解析。';}catch(error){el('notice').textContent='匯入失敗：'+error.message;}finally{el('file').value='';}});
+el('download').addEventListener('click',()=>{if(!output)return;const url=URL.createObjectURL(new Blob([JSON.stringify(output,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='蒼究角色設定.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});sync();
+</script></html>
