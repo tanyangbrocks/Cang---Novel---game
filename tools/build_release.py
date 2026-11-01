@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PKG = ROOT / 'cangjiu-world'
 TXT = ROOT / '蒼究世界_匯入即玩_v2.2.txt'
-REFERENCES = ('modes.md', 'character-creation.md', 'story.md', 'rpg.md', 'rpg-time.md', 'panels.md', 'author-decisions.md', 'world-npc.md',
+REFERENCES = ('modes.md', 'presentation.md', 'character-creation.md', 'story.md', 'rpg.md', 'rpg-time.md', 'panels.md', 'author-decisions.md', 'world-npc.md',
               'abilities-resolution.md', 'state-template.md', 'content-boundaries.md')
 
 
