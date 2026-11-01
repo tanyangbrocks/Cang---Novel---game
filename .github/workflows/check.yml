@@ -1,0 +1,23 @@
+name: Validate game package
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test state and adjudication
+        run: python -m unittest discover -s cangjiu-world/tests -v
+      - name: Check canon and delivery
+        run: python tools/check_release.py
+      - name: Build downloadable archive
+        run: python tools/build_release.py

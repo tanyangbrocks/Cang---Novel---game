@@ -1,0 +1,3728 @@
+{
+  "version": "2.1",
+  "source_path": "data/world-canon.md",
+  "sha256": "E69754BAB4112925A0A57C812B4B6AC790823701481501BD1DCB216DA40CF7FC",
+  "source_bytes": 530068,
+  "original_sha256": "33CC9964EA2B50B10A1EC6A94711417D3AF3E473559AB1D19A9DEA55024EF7F3",
+  "pages": [
+    {
+      "id": "556dd2c10fd9450696f68da00b28fbc8",
+      "title": "超級設定集結—蒼究",
+      "status": "active-with-author-decisions",
+      "start": 7,
+      "end": 78
+    },
+    {
+      "id": "28d8e504efab436e846d4d7542aef208",
+      "title": "最大世界觀架構",
+      "status": "active-with-author-decisions",
+      "start": 79,
+      "end": 257
+    },
+    {
+      "id": "62f53b0233874e37b4dec540606ca9af",
+      "title": "生體鬥意無盡定律",
+      "status": "active-with-author-decisions",
+      "start": 258,
+      "end": 281
+    },
+    {
+      "id": "4c4593c9ead94c7f89616291e1c6751f",
+      "title": "星際界面能源文明等級",
+      "status": "active-with-author-decisions",
+      "start": 282,
+      "end": 307
+    },
+    {
+      "id": "1d3a230632f1467283b3b7ac0ff6901b",
+      "title": "最小世界觀構成",
+      "status": "active-with-author-decisions",
+      "start": 308,
+      "end": 353
+    },
+    {
+      "id": "40d8fdc16dbe4eb3b775b8d3a46364c4",
+      "title": "魂之結構",
+      "status": "active-with-author-decisions",
+      "start": 354,
+      "end": 390
+    },
+    {
+      "id": "4fdecaf0814a4de483af5e3e55bb2bd1",
+      "title": "特殊價值",
+      "status": "active-with-author-decisions",
+      "start": 391,
+      "end": 445
+    },
+    {
+      "id": "9c0ee12bbc7c491289a18d200cc78dec",
+      "title": "神界基本設定",
+      "status": "active-with-author-decisions",
+      "start": 446,
+      "end": 551
+    },
+    {
+      "id": "1957b9a7e0a94ce990645ad6e94cfcb5",
+      "title": "神界種族（皆為神族）",
+      "status": "active-with-author-decisions",
+      "start": 552,
+      "end": 632
+    },
+    {
+      "id": "17bf38cb84a180c39787cd3cd74a722d",
+      "title": "命運強度",
+      "status": "active-with-author-decisions",
+      "start": 633,
+      "end": 654
+    },
+    {
+      "id": "564ec6968bf949a4b1b2cfe391c4f64a",
+      "title": "真尋者草稿設定",
+      "status": "disabled",
+      "start": 655,
+      "end": 659
+    },
+    {
+      "id": "1ff2191f4fa94809be4d3da708cc4e8d",
+      "title": "戰鬥&三大通用要素&十八體系三大根源：",
+      "status": "active-with-author-decisions",
+      "start": 660,
+      "end": 779
+    },
+    {
+      "id": "b2f90a0c0e48441c90039ba1b2ca2b01",
+      "title": "元素",
+      "status": "active-with-author-decisions",
+      "start": 780,
+      "end": 855
+    },
+    {
+      "id": "fef42d6ea82b4fc7895d50a25bef5bc9",
+      "title": "武之心得（廣義武道）",
+      "status": "active-with-author-decisions",
+      "start": 856,
+      "end": 925
+    },
+    {
+      "id": "e23ef3dec8e64318adb874eb6bcd3a0b",
+      "title": "法則",
+      "status": "active-with-author-decisions",
+      "start": 926,
+      "end": 1047
+    },
+    {
+      "id": "16df38cb84a180f8b287dd391be8c272",
+      "title": "超界聯盟",
+      "status": "active-with-author-decisions",
+      "start": 1048,
+      "end": 1139
+    },
+    {
+      "id": "6cd6fa453e3749efae5516932b65faa5",
+      "title": "星盟通用戰力等級",
+      "status": "active-with-author-decisions",
+      "start": 1140,
+      "end": 1241
+    },
+    {
+      "id": "10ff38cb84a180ff8d8ad6912ff05b3a",
+      "title": "星盟戰力考核",
+      "status": "active-with-author-decisions",
+      "start": 1242,
+      "end": 1305
+    },
+    {
+      "id": "10ff38cb84a18008ab64f3a7cc2b138e",
+      "title": "超界行者身份別",
+      "status": "active-with-author-decisions",
+      "start": 1306,
+      "end": 1441
+    },
+    {
+      "id": "3346ddeab1b7403fb2e6041d8e47e0d1",
+      "title": "人族主要派系之爭",
+      "status": "active-with-author-decisions",
+      "start": 1442,
+      "end": 1513
+    },
+    {
+      "id": "373c35151dd2416484519c27eb5b187f",
+      "title": "武道（神兵）",
+      "status": "active-with-author-decisions",
+      "start": 1514,
+      "end": 1642
+    },
+    {
+      "id": "ce0ca431b91d4df88398686bc515dc85",
+      "title": "仙道（靈玉）",
+      "status": "active-with-author-decisions",
+      "start": 1643,
+      "end": 1814
+    },
+    {
+      "id": "2f1d95bdc702424699350aa38db85158",
+      "title": "法道（識海）",
+      "status": "active-with-author-decisions",
+      "start": 1815,
+      "end": 1950
+    },
+    {
+      "id": "9dab4b8f2aa4456bad9babe918affb21",
+      "title": "意道（神花）",
+      "status": "active-with-author-decisions",
+      "start": 1951,
+      "end": 2089
+    },
+    {
+      "id": "93d1e0f1cc0d41f6a53e63532dcfadc5",
+      "title": "魂道（魂火）",
+      "status": "active-with-author-decisions",
+      "start": 2090,
+      "end": 2200
+    },
+    {
+      "id": "08f27ab2cb72454b94fff3b081eb055c",
+      "title": "詭道（圖騰）",
+      "status": "active-with-author-decisions",
+      "start": 2201,
+      "end": 2385
+    },
+    {
+      "id": "99ce2fc0f7fb47de9aeb02028c15f1ea",
+      "title": "魔法",
+      "status": "active-with-author-decisions",
+      "start": 2386,
+      "end": 2435
+    },
+    {
+      "id": "6df130916b9e46839ddcd0c474b18247",
+      "title": "妖力",
+      "status": "active-with-author-decisions",
+      "start": 2436,
+      "end": 2543
+    },
+    {
+      "id": "76764628601b46da99ed8dbbd5c125dc",
+      "title": "奧術",
+      "status": "active-with-author-decisions",
+      "start": 2544,
+      "end": 2631
+    },
+    {
+      "id": "8624d6a4755d4f6283019889e7a7622e",
+      "title": "神聖力",
+      "status": "active-with-author-decisions",
+      "start": 2632,
+      "end": 2839
+    },
+    {
+      "id": "47ec61d0b6a049498a907c37e8ad7bfe",
+      "title": "源能",
+      "status": "active-with-author-decisions",
+      "start": 2840,
+      "end": 2909
+    },
+    {
+      "id": "d625a3e9a16641f49b87338d7e172e87",
+      "title": "星能",
+      "status": "active-with-author-decisions",
+      "start": 2910,
+      "end": 2963
+    },
+    {
+      "id": "cc0700fe06524770b7decdbf3c21850d",
+      "title": "技能",
+      "status": "active-with-author-decisions",
+      "start": 2964,
+      "end": 3042
+    },
+    {
+      "id": "4e3f38282b2e48a8b1a89adb08874064",
+      "title": "職業(世界職業)",
+      "status": "active-with-author-decisions",
+      "start": 3043,
+      "end": 3140
+    },
+    {
+      "id": "9cba279567fd4a2fbcb4fb2b2fe61cd6",
+      "title": "超能",
+      "status": "active-with-author-decisions",
+      "start": 3141,
+      "end": 3196
+    },
+    {
+      "id": "1cf3f198ec6b4f47b626047ca5f5cb61",
+      "title": "神力",
+      "status": "active-with-author-decisions",
+      "start": 3197,
+      "end": 3238
+    },
+    {
+      "id": "1ac567a56d904c41aca07e540c7e3e73",
+      "title": "概念",
+      "status": "active-with-author-decisions",
+      "start": 3239,
+      "end": 3300
+    },
+    {
+      "id": "435e18b77eff48d49329fdea9d7fae66",
+      "title": "尋能(真實)",
+      "status": "active-with-author-decisions",
+      "start": 3301,
+      "end": 3368
+    },
+    {
+      "id": "e4525f2301024c6bbb879a5eab2a356b",
+      "title": "重裝、機戰神、重塑機械族",
+      "status": "active-with-author-decisions",
+      "start": 3369,
+      "end": 3387
+    },
+    {
+      "id": "a54df0554a054c7aa920ad0e6c4ff81a",
+      "title": "基因強化人",
+      "status": "active-with-author-decisions",
+      "start": 3388,
+      "end": 3437
+    },
+    {
+      "id": "6651df860ea5482f972b4c60c16a0e8f",
+      "title": "生化改造人",
+      "status": "active-with-author-decisions",
+      "start": 3438,
+      "end": 3481
+    },
+    {
+      "id": "47da721209384ab58262046bf7bdd06f",
+      "title": "武之技藝",
+      "status": "active-with-author-decisions",
+      "start": 3482,
+      "end": 3533
+    },
+    {
+      "id": "107f38cb84a1809297c1d3c38b3ec1bb",
+      "title": "武之技藝—心技體特技",
+      "status": "active-with-author-decisions",
+      "start": 3534,
+      "end": 3561
+    },
+    {
+      "id": "16df38cb84a1805d968fcd1e1ccc116c",
+      "title": "六龍聖天分區總部",
+      "status": "active-with-author-decisions",
+      "start": 3562,
+      "end": 3569
+    },
+    {
+      "id": "16df38cb84a180439d48cb185c6f4e8b",
+      "title": "戴洛艾色分區總部",
+      "status": "active-with-author-decisions",
+      "start": 3570,
+      "end": 3577
+    },
+    {
+      "id": "16df38cb84a18028bf50c6c195e64b07",
+      "title": "泰克諾爾分區總部",
+      "status": "active-with-author-decisions",
+      "start": 3578,
+      "end": 3585
+    },
+    {
+      "id": "206f38cb84a18077af64f98bb47896ff",
+      "title": "天輝星盟",
+      "status": "active-with-author-decisions",
+      "start": 3586,
+      "end": 3619
+    },
+    {
+      "id": "282f38cb84a1806ca5d9fb3a4d7ebe12",
+      "title": "徽章通用能力",
+      "status": "active-with-author-decisions",
+      "start": 3620,
+      "end": 3661
+    },
+    {
+      "id": "10ff38cb84a1808493f5d5ad8596caa4",
+      "title": "黑徽章特權&能力",
+      "status": "active-with-author-decisions",
+      "start": 3662,
+      "end": 3677
+    },
+    {
+      "id": "10ff38cb84a180cd98c8cbacb1e73900",
+      "title": "綠徽章特權&能力",
+      "status": "active-with-author-decisions",
+      "start": 3678,
+      "end": 3685
+    },
+    {
+      "id": "10ff38cb84a1805b908ef0f66ea843d6",
+      "title": "藍徽章特權&能力",
+      "status": "active-with-author-decisions",
+      "start": 3686,
+      "end": 3693
+    },
+    {
+      "id": "10ff38cb84a18004ba74c63c9d4a5040",
+      "title": "黃徽章特權&能力",
+      "status": "active-with-author-decisions",
+      "start": 3694,
+      "end": 3701
+    },
+    {
+      "id": "10ff38cb84a1808ab49bdc26a50a3ddb",
+      "title": "紅徽章特權&能力",
+      "status": "active-with-author-decisions",
+      "start": 3702,
+      "end": 3709
+    },
+    {
+      "id": "10ff38cb84a180d0b249e8ec82a9ec2b",
+      "title": "紫徽章特權&能力",
+      "status": "active-with-author-decisions",
+      "start": 3710,
+      "end": 3717
+    },
+    {
+      "id": "218f38cb84a180d0af48f8fccf1d29e6",
+      "title": "快速移動種類",
+      "status": "active-with-author-decisions",
+      "start": 3718,
+      "end": 3733
+    },
+    {
+      "id": "e65c4c3c92634e2ab014330344a4e71d",
+      "title": "鬼族",
+      "status": "active-with-author-decisions",
+      "start": 3734,
+      "end": 3879
+    },
+    {
+      "id": "23833e9257dd4852ba37c7170400aa2f",
+      "title": "妖族：萬獸妖族&天行妖族&水行妖族&妖精族&肢節妖族",
+      "status": "active-with-author-decisions",
+      "start": 3880,
+      "end": 4025
+    },
+    {
+      "id": "178f38cb84a1806b90e9d6c8b257e8a0",
+      "title": "真氣應用基礎",
+      "status": "active-with-author-decisions",
+      "start": 4026,
+      "end": 4045
+    },
+    {
+      "id": "183f38cb84a180cabf9bcd758c069311",
+      "title": "炁",
+      "status": "active-with-author-decisions",
+      "start": 4046,
+      "end": 4057
+    },
+    {
+      "id": "6bd5fe9f73fb4570904b57d926fa5419",
+      "title": "常見外練武法",
+      "status": "active-with-author-decisions",
+      "start": 4058,
+      "end": 4101
+    },
+    {
+      "id": "8108e3c6ac9f434bb572b3d897293c69",
+      "title": "常見內功心法",
+      "status": "active-with-author-decisions",
+      "start": 4102,
+      "end": 4131
+    },
+    {
+      "id": "743fdb6d424a4b6a97b4d06e0e827855",
+      "title": "常見身法",
+      "status": "active-with-author-decisions",
+      "start": 4132,
+      "end": 4143
+    },
+    {
+      "id": "dcab40563eb147bbb61fc7725c94d076",
+      "title": "煉體（武道煉體&仙道煉體）",
+      "status": "active-with-author-decisions",
+      "start": 4144,
+      "end": 4207
+    },
+    {
+      "id": "0f1d4cb5888e414fa7d740d8544c8b43",
+      "title": "靈玉",
+      "status": "active-with-author-decisions",
+      "start": 4208,
+      "end": 4258
+    },
+    {
+      "id": "678c7c502b914b4ba75a5141a9d5656c",
+      "title": "仙道相關名詞",
+      "status": "active-with-author-decisions",
+      "start": 4259,
+      "end": 4316
+    },
+    {
+      "id": "177f38cb84a18019992ae778584719d8",
+      "title": "修煉仙道—半邪道",
+      "status": "active-with-author-decisions",
+      "start": 4317,
+      "end": 4366
+    },
+    {
+      "id": "158d7ce3a2914d0ebecb4516ad1213b9",
+      "title": "悟性",
+      "status": "active-with-author-decisions",
+      "start": 4367,
+      "end": 4408
+    },
+    {
+      "id": "49f7a09a9782434182e3478771ab80dd",
+      "title": "修煉境界（下境界）",
+      "status": "active-with-author-decisions",
+      "start": 4409,
+      "end": 4456
+    },
+    {
+      "id": "6b4fddb975d84dc6a79276b4439fa3e8",
+      "title": "修練境界（中境界）",
+      "status": "active-with-author-decisions",
+      "start": 4457,
+      "end": 4470
+    },
+    {
+      "id": "e4504c5f9fa64fb8afff6b7dd955a6f5",
+      "title": "修練境界（上境界）",
+      "status": "active-with-author-decisions",
+      "start": 4471,
+      "end": 4498
+    },
+    {
+      "id": "2023613ccf95418b87a7ce28fe0bbfbb",
+      "title": "靈力運用法",
+      "status": "active-with-author-decisions",
+      "start": 4499,
+      "end": 4528
+    },
+    {
+      "id": "274f38cb84a18029b736d2677b6a7c76",
+      "title": "奪舍",
+      "status": "active-with-author-decisions",
+      "start": 4529,
+      "end": 4554
+    },
+    {
+      "id": "e71c6e8bd0464420b31d8d8bb7036a31",
+      "title": "魔/靈核傀儡師",
+      "status": "active-with-author-decisions",
+      "start": 4555,
+      "end": 4572
+    },
+    {
+      "id": "275f38cb84a180739fb8c1248e6c96c5",
+      "title": "獸魂師",
+      "status": "active-with-author-decisions",
+      "start": 4573,
+      "end": 4584
+    },
+    {
+      "id": "08c8366bcba74be8aff1bbb4ad512f93",
+      "title": "寵獸御獸師",
+      "status": "active-with-author-decisions",
+      "start": 4585,
+      "end": 4616
+    },
+    {
+      "id": "9ed557cfc49c4fd2b479e6c7d69bc42e",
+      "title": "靈身寶",
+      "status": "active-with-author-decisions",
+      "start": 4617,
+      "end": 4722
+    },
+    {
+      "id": "af361d209b894231b30b016ac86d3cd5",
+      "title": "靈媒寶",
+      "status": "active-with-author-decisions",
+      "start": 4723,
+      "end": 4808
+    },
+    {
+      "id": "f86e9624168447caa992b66d590bbaee",
+      "title": "靈物寶",
+      "status": "active-with-author-decisions",
+      "start": 4809,
+      "end": 4873
+    },
+    {
+      "id": "204f38cb84a180aab7eff2faba95a9ab",
+      "title": "夢青歸逆天道草稿",
+      "status": "disabled",
+      "start": 4874,
+      "end": 4878
+    },
+    {
+      "id": "298b06b79d264b79b2a9dc70d433d4c3",
+      "title": "魔法相關名詞&現象",
+      "status": "active-with-author-decisions",
+      "start": 4879,
+      "end": 4962
+    },
+    {
+      "id": "1bff43a4e901414fb4ce600f47a9f7c9",
+      "title": "直擊(掌控&術式)",
+      "status": "active-with-author-decisions",
+      "start": 4963,
+      "end": 5063
+    },
+    {
+      "id": "48ecf1818d4a4a848fdef850a0cd3a88",
+      "title": "法陣(魔力迴路)",
+      "status": "active-with-author-decisions",
+      "start": 5064,
+      "end": 5129
+    },
+    {
+      "id": "183f38cb84a180a5bb6ee8e64b61a054",
+      "title": "魔理（科學魔法）",
+      "status": "active-with-author-decisions",
+      "start": 5130,
+      "end": 5157
+    },
+    {
+      "id": "05406dc51100447b838d8d4554a54f7d",
+      "title": "煉金術",
+      "status": "active-with-author-decisions",
+      "start": 5158,
+      "end": 5252
+    },
+    {
+      "id": "4ce1fdf23b874f3c93ae33a3fb574371",
+      "title": "召喚術",
+      "status": "active-with-author-decisions",
+      "start": 5253,
+      "end": 5312
+    },
+    {
+      "id": "032d06a1c46642f1ac1d91ef287102aa",
+      "title": "附體術",
+      "status": "active-with-author-decisions",
+      "start": 5313,
+      "end": 5354
+    },
+    {
+      "id": "179f38cb84a180f084ecde83cb38624f",
+      "title": "占星術",
+      "status": "active-with-author-decisions",
+      "start": 5355,
+      "end": 5370
+    },
+    {
+      "id": "189f38cb84a180379340c893f0e0e0d2",
+      "title": "結界術",
+      "status": "active-with-author-decisions",
+      "start": 5371,
+      "end": 5380
+    },
+    {
+      "id": "189f38cb84a18015863ddbacdbc1199a",
+      "title": "魔紋編程",
+      "status": "active-with-author-decisions",
+      "start": 5381,
+      "end": 5392
+    },
+    {
+      "id": "208f38cb84a180529e9eedb796dc9c2f",
+      "title": "魔器具",
+      "status": "active-with-author-decisions",
+      "start": 5393,
+      "end": 5434
+    },
+    {
+      "id": "40038892ebe440d486428eb46d934c20",
+      "title": "人族的魔法",
+      "status": "active-with-author-decisions",
+      "start": 5435,
+      "end": 5594
+    },
+    {
+      "id": "0a9ce412581e488894c31589d2c3a6dd",
+      "title": "聖魔靈的力量",
+      "status": "active-with-author-decisions",
+      "start": 5595,
+      "end": 5648
+    },
+    {
+      "id": "8842ef6a1bc54634a0aef1377a74015e",
+      "title": "天球族的魔法",
+      "status": "active-with-author-decisions",
+      "start": 5649,
+      "end": 5662
+    },
+    {
+      "id": "20ff38cb84a180848025ce9b245d07cf",
+      "title": "妖師",
+      "status": "active-with-author-decisions",
+      "start": 5663,
+      "end": 5694
+    },
+    {
+      "id": "181f38cb84a1809abc0ef1ebf806536b",
+      "title": "序列妖媒",
+      "status": "active-with-author-decisions",
+      "start": 5695,
+      "end": 5710
+    },
+    {
+      "id": "173f38cb84a1802b9c17d9f14f60b2be",
+      "title": "妖狩法（適妖怪）",
+      "status": "active-with-author-decisions",
+      "start": 5711,
+      "end": 5734
+    },
+    {
+      "id": "267f38cb84a1802ea813ce3dbe371371",
+      "title": "信徒種類",
+      "status": "active-with-author-decisions",
+      "start": 5735,
+      "end": 5792
+    },
+    {
+      "id": "181f38cb84a18041bc9cdf21714d9c15",
+      "title": "源導設備",
+      "status": "active-with-author-decisions",
+      "start": 5793,
+      "end": 5850
+    },
+    {
+      "id": "181f38cb84a180cf8b3dd9fe50f9723b",
+      "title": "源導武器",
+      "status": "active-with-author-decisions",
+      "start": 5851,
+      "end": 5886
+    },
+    {
+      "id": "207f38cb84a180eb909bf4ea3c1d21b0",
+      "title": "源科技",
+      "status": "active-with-author-decisions",
+      "start": 5887,
+      "end": 5900
+    },
+    {
+      "id": "bfca2e5a5c1041fda725ee56149b7e13",
+      "title": "機械族",
+      "status": "active-with-author-decisions",
+      "start": 5901,
+      "end": 6011
+    },
+    {
+      "id": "2b91bec724564e73906e165173ac1516",
+      "title": "系統能力概述",
+      "status": "active-with-author-decisions",
+      "start": 6012,
+      "end": 6070
+    },
+    {
+      "id": "dae515f230ae4ff5a6a0f0073355365b",
+      "title": "常見戰鬥職業",
+      "status": "active-with-author-decisions",
+      "start": 6071,
+      "end": 6168
+    },
+    {
+      "id": "9e9e9008cdd34479b8f8828b89a1d481",
+      "title": "常見非戰鬥職業",
+      "status": "active-with-author-decisions",
+      "start": 6169,
+      "end": 6194
+    },
+    {
+      "id": "18bf38cb84a1801e8127e82b1b3d3282",
+      "title": "編號異能",
+      "status": "active-with-author-decisions",
+      "start": 6195,
+      "end": 6202
+    },
+    {
+      "id": "205f38cb84a1802f94e5f48060b2ce64",
+      "title": "大地域",
+      "status": "active-with-author-decisions",
+      "start": 6203,
+      "end": 6259
+    },
+    {
+      "id": "0c4e5859eb7148e0a354a56b5c1d0bf8",
+      "title": "星盟峰會",
+      "status": "active-with-author-decisions",
+      "start": 6260,
+      "end": 6267
+    },
+    {
+      "id": "30d2a89ce92b4dc0aaf6a1e9e123a881",
+      "title": "鬼族素材性（人族與鬼族的伴生制約）",
+      "status": "active-with-author-decisions",
+      "start": 6268,
+      "end": 6311
+    },
+    {
+      "id": "a418d66192434cea8e290998de28fcf6",
+      "title": "關於鬼族&人鬼狩獵人類",
+      "status": "active-with-author-decisions",
+      "start": 6312,
+      "end": 6396
+    },
+    {
+      "id": "197f38cb84a18099aa2deeba3b688975",
+      "title": "鬼修功法",
+      "status": "active-with-author-decisions",
+      "start": 6397,
+      "end": 6424
+    },
+    {
+      "id": "a5f2afa1b6f8492b84d69e9816b7ec77",
+      "title": "鬼域",
+      "status": "active-with-author-decisions",
+      "start": 6425,
+      "end": 6500
+    },
+    {
+      "id": "9ecaa84bca004bbfa37db638712902de",
+      "title": "鬼族的繁殖",
+      "status": "active-with-author-decisions",
+      "start": 6501,
+      "end": 6526
+    },
+    {
+      "id": "214f38cb84a18076ba0fcddf0d8bd0e8",
+      "title": "《鬼族千相•紫鬼篇》",
+      "status": "active-with-author-decisions",
+      "start": 6527,
+      "end": 6596
+    },
+    {
+      "id": "0439f5a9294e401abda343265a42ef08",
+      "title": "《鬼族千相•赤鬼篇》",
+      "status": "active-with-author-decisions",
+      "start": 6597,
+      "end": 6649
+    },
+    {
+      "id": "57832bd0b82a44799e61e55c33afea01",
+      "title": "《鬼族千相•青鬼篇》",
+      "status": "active-with-author-decisions",
+      "start": 6650,
+      "end": 6733
+    },
+    {
+      "id": "211f38cb84a180b0a6b9da326113be5d",
+      "title": "半妖族",
+      "status": "active-with-author-decisions",
+      "start": 6734,
+      "end": 6741
+    },
+    {
+      "id": "a4c49236d9e142c9a9a0faff56174e27",
+      "title": "經脈&竅穴（武道為主）",
+      "status": "active-with-author-decisions",
+      "start": 6742,
+      "end": 6814
+    },
+    {
+      "id": "0d65a3cde51b4df8aff9e8553f55848b",
+      "title": "玄竅＆仙竅（仙道）",
+      "status": "active-with-author-decisions",
+      "start": 6815,
+      "end": 6822
+    },
+    {
+      "id": "e5641f7e0cdd47aeb26f73c34499d469",
+      "title": "煉體功法",
+      "status": "active-with-author-decisions",
+      "start": 6823,
+      "end": 6834
+    },
+    {
+      "id": "826b1adbb81f4060bd9eb7f8dd44cc13",
+      "title": "特殊體質&特殊器官",
+      "status": "active-with-author-decisions",
+      "start": 6835,
+      "end": 6878
+    },
+    {
+      "id": "173f38cb84a1804b98bdc0e6119d2750",
+      "title": "靈玉的檢測",
+      "status": "active-with-author-decisions",
+      "start": 6879,
+      "end": 6896
+    },
+    {
+      "id": "276f38cb84a180ff8852de6fa756991c",
+      "title": "一些舊文字",
+      "status": "disabled",
+      "start": 6897,
+      "end": 6901
+    },
+    {
+      "id": "281f38cb84a18066976dfdea34526f04",
+      "title": "魔香&靈香",
+      "status": "active-with-author-decisions",
+      "start": 6902,
+      "end": 6913
+    },
+    {
+      "id": "279f38cb84a180df932cda8a02689699",
+      "title": "心魔",
+      "status": "active-with-author-decisions",
+      "start": 6914,
+      "end": 6929
+    },
+    {
+      "id": "279f38cb84a180b0a9d6d29c3a3a6f5d",
+      "title": "雙修",
+      "status": "active-with-author-decisions",
+      "start": 6930,
+      "end": 6993
+    },
+    {
+      "id": "279f38cb84a180279f89f6b28849cb5d",
+      "title": "論道",
+      "status": "active-with-author-decisions",
+      "start": 6994,
+      "end": 7031
+    },
+    {
+      "id": "27af38cb84a180448007c442fd34b2f4",
+      "title": "頓悟",
+      "status": "active-with-author-decisions",
+      "start": 7032,
+      "end": 7061
+    },
+    {
+      "id": "69130a3c72b24440813c51bd8fa1155e",
+      "title": "虛海期（煉氣）",
+      "status": "active-with-author-decisions",
+      "start": 7062,
+      "end": 7114
+    },
+    {
+      "id": "8e59379a54ca415bb41801a6e3e518d7",
+      "title": "晶煉期（築基）",
+      "status": "active-with-author-decisions",
+      "start": 7115,
+      "end": 7164
+    },
+    {
+      "id": "1e15d08ee01e49c3b57f279eacdd42da",
+      "title": "銘界期（金丹）",
+      "status": "active-with-author-decisions",
+      "start": 7165,
+      "end": 7287
+    },
+    {
+      "id": "6c22f728e0d24d7c9c429ea1f105bf64",
+      "title": "界源期（元嬰）",
+      "status": "active-with-author-decisions",
+      "start": 7288,
+      "end": 7360
+    },
+    {
+      "id": "7222a8b1b11940e19a51fb78d483eebc",
+      "title": "道極期",
+      "status": "active-with-author-decisions",
+      "start": 7361,
+      "end": 7385
+    },
+    {
+      "id": "007d5b7fb4a9488c8cba3e8bd6556494",
+      "title": "虛轉（煉魂、合道、萬生）",
+      "status": "active-with-author-decisions",
+      "start": 7386,
+      "end": 7401
+    },
+    {
+      "id": "d64ebc49c2a445c2aacbdecd121b14bc",
+      "title": "大乘（道橋、乾坤、破梏）",
+      "status": "active-with-author-decisions",
+      "start": 7402,
+      "end": 7413
+    },
+    {
+      "id": "2cb058bd85564970a5293b0c7cc0607c",
+      "title": "仙劫（羽化、輪迴、終劫）",
+      "status": "active-with-author-decisions",
+      "start": 7414,
+      "end": 7429
+    },
+    {
+      "id": "d4932c27ff0b4734bb59a690bf978b54",
+      "title": "真仙（堪比準神）",
+      "status": "active-with-author-decisions",
+      "start": 7430,
+      "end": 7437
+    },
+    {
+      "id": "e148bf0cfa1c40e0b0568dd7e9edc76a",
+      "title": "元尊（堪比下位神）",
+      "status": "active-with-author-decisions",
+      "start": 7438,
+      "end": 7445
+    },
+    {
+      "id": "6cfbaeb46c5f4a9f8857e7d0ce1cde0a",
+      "title": "太乙（堪比中位神）",
+      "status": "active-with-author-decisions",
+      "start": 7446,
+      "end": 7453
+    },
+    {
+      "id": "7cb6e3625bc744e9bf942bc810e445fb",
+      "title": "羅天（堪比中位正神）",
+      "status": "active-with-author-decisions",
+      "start": 7454,
+      "end": 7461
+    },
+    {
+      "id": "2cb3f90961e442578c8508d318b7a9cd",
+      "title": "道祖（堪比上位正神）",
+      "status": "active-with-author-decisions",
+      "start": 7462,
+      "end": 7469
+    },
+    {
+      "id": "267f38cb84a180feaf9fe2b423a35c5f",
+      "title": "混沌主宰（堪比上位祖神）",
+      "status": "active-with-author-decisions",
+      "start": 7470,
+      "end": 7477
+    },
+    {
+      "id": "267f38cb84a18076a10fea3b4f7a5ffe",
+      "title": "太初歸墟（堪比上位主神）",
+      "status": "active-with-author-decisions",
+      "start": 7478,
+      "end": 7485
+    },
+    {
+      "id": "267f38cb84a180ef9d24c1101ed4bc1b",
+      "title": "至尊（與真實之神相當的存在）",
+      "status": "active-with-author-decisions",
+      "start": 7486,
+      "end": 7493
+    },
+    {
+      "id": "0253b44f2a5542899d227d1aebcf7fcc",
+      "title": "拉普拉斯標準直擊魔法",
+      "status": "active-with-author-decisions",
+      "start": 7494,
+      "end": 7841
+    },
+    {
+      "id": "21bf38cb84a180239862faaa9d5a4d35",
+      "title": "魔杖",
+      "status": "active-with-author-decisions",
+      "start": 7842,
+      "end": 7900
+    },
+    {
+      "id": "2ddf38cb84a180c19c06dcf0e910f6f6",
+      "title": "魔陣之杖",
+      "status": "active-with-author-decisions",
+      "start": 7901,
+      "end": 7932
+    },
+    {
+      "id": "f8829e9770e74362aee1009170183c71",
+      "title": "某作品法陣設定",
+      "status": "disabled",
+      "start": 7933,
+      "end": 7937
+    },
+    {
+      "id": "183f38cb84a180cdb244f873aadc2aab",
+      "title": "原初純潔魔力",
+      "status": "active-with-author-decisions",
+      "start": 7938,
+      "end": 7949
+    },
+    {
+      "id": "58304c28be4d43c2b0813a0a9bfa8e05",
+      "title": "各種最上位系統",
+      "status": "disabled",
+      "start": 7950,
+      "end": 7954
+    },
+    {
+      "id": "167c3d2afb8a45c698062a3a0c95dcca",
+      "title": "系統征戰構想",
+      "status": "disabled",
+      "start": 7955,
+      "end": 7959
+    },
+    {
+      "id": "c5ca45ea163947d8a493abc533369da8",
+      "title": "劇情草稿",
+      "status": "disabled",
+      "start": 7960,
+      "end": 7964
+    },
+    {
+      "id": "3f5a4da3a12a45bf8d02cd4ddb67f65a",
+      "title": "其它作品的系統相關",
+      "status": "disabled",
+      "start": 7965,
+      "end": 7969
+    },
+    {
+      "id": "a1d512119f2f4df08b724dae5d3e9eae",
+      "title": "武鬥家系列",
+      "status": "active-with-author-decisions",
+      "start": 7970,
+      "end": 7977
+    },
+    {
+      "id": "3c4f20c9375848ae8e745de482c1610c",
+      "title": "獵殺者系列",
+      "status": "active-with-author-decisions",
+      "start": 7978,
+      "end": 7985
+    },
+    {
+      "id": "dddb38e7758440b68d2eece3584dcb0a",
+      "title": "弓箭手系列",
+      "status": "active-with-author-decisions",
+      "start": 7986,
+      "end": 7993
+    },
+    {
+      "id": "c5f9ab6a275346b2923fa738657a86b5",
+      "title": "暗器師系列",
+      "status": "active-with-author-decisions",
+      "start": 7994,
+      "end": 8001
+    },
+    {
+      "id": "d0e1b7fd6ee143bda14df54416bcc38e",
+      "title": "熱兵器系列",
+      "status": "active-with-author-decisions",
+      "start": 8002,
+      "end": 8009
+    },
+    {
+      "id": "bd8e617b9ef54574b98242c9022059bd",
+      "title": "塔盾系列",
+      "status": "active-with-author-decisions",
+      "start": 8010,
+      "end": 8017
+    },
+    {
+      "id": "be8253f34a5344ab93633d64e4c2d45d",
+      "title": "重甲系列",
+      "status": "active-with-author-decisions",
+      "start": 8018,
+      "end": 8025
+    },
+    {
+      "id": "44b521be894e48daaa743d38bab1184e",
+      "title": "高恢復系列",
+      "status": "active-with-author-decisions",
+      "start": 8026,
+      "end": 8033
+    },
+    {
+      "id": "d8964439a2f44b908503d6ff2a2d63a3",
+      "title": "能量師系列",
+      "status": "active-with-author-decisions",
+      "start": 8034,
+      "end": 8041
+    },
+    {
+      "id": "db4787703bff4e18b48f80c15d7136a3",
+      "title": "科技師系列",
+      "status": "active-with-author-decisions",
+      "start": 8042,
+      "end": 8049
+    },
+    {
+      "id": "bec2dfe8b572499d8f2b6f430498f47a",
+      "title": "陷阱師系列",
+      "status": "active-with-author-decisions",
+      "start": 8050,
+      "end": 8057
+    },
+    {
+      "id": "3300dc2e4cb14f8daffbdd3cafe070c8",
+      "title": "刺客系列",
+      "status": "active-with-author-decisions",
+      "start": 8058,
+      "end": 8065
+    },
+    {
+      "id": "d9b77025862747c2867e1e233ec9c875",
+      "title": "盜賊系列",
+      "status": "active-with-author-decisions",
+      "start": 8066,
+      "end": 8073
+    },
+    {
+      "id": "231a3a0e7e7e46839f962b64d416df74",
+      "title": "遊俠系列",
+      "status": "active-with-author-decisions",
+      "start": 8074,
+      "end": 8081
+    },
+    {
+      "id": "39cbb94142d243478b3a9a1ff1325fc0",
+      "title": "祭司系列",
+      "status": "active-with-author-decisions",
+      "start": 8082,
+      "end": 8089
+    },
+    {
+      "id": "8ab29972fec54463922481d299f4f164",
+      "title": "控制系列",
+      "status": "active-with-author-decisions",
+      "start": 8090,
+      "end": 8097
+    },
+    {
+      "id": "7c259305510346e5910c40291f6671d2",
+      "title": "偵查系列",
+      "status": "active-with-author-decisions",
+      "start": 8098,
+      "end": 8105
+    },
+    {
+      "id": "131f38cb84a180ba9e31e1917e0614e7",
+      "title": "特殊異能鬼域種類",
+      "status": "active-with-author-decisions",
+      "start": 8106,
+      "end": 8125
+    },
+    {
+      "id": "279f38cb84a180769298f6420b06b55f",
+      "title": "一些舊文字",
+      "status": "disabled",
+      "start": 8126,
+      "end": 8130
+    },
+    {
+      "id": "279f38cb84a180119b1bfc852bab8719",
+      "title": "一些舊文字",
+      "status": "disabled",
+      "start": 8131,
+      "end": 8135
+    },
+    {
+      "id": "2bed49dd91e8414c9eb01a8e5bd08b36",
+      "title": "一些備用文字",
+      "status": "disabled",
+      "start": 8136,
+      "end": 8140
+    },
+    {
+      "id": "96307594393c40598f927d5d801c1055",
+      "title": "本源道嬰修煉之路",
+      "status": "active-with-author-decisions",
+      "start": 8141,
+      "end": 8148
+    },
+    {
+      "id": "4c5491688b5946a9ba2c63c7498e7395",
+      "title": "伴生奇嬰修煉之路",
+      "status": "active-with-author-decisions",
+      "start": 8149,
+      "end": 8156
+    },
+    {
+      "id": "f75df130660a43609e723c15f9e0b572",
+      "title": "魂火邪嬰修煉之路",
+      "status": "active-with-author-decisions",
+      "start": 8157,
+      "end": 8166
+    },
+    {
+      "id": "17bf38cb84a1800a8841fe81c1e644c7",
+      "title": "其它常見個體屬性",
+      "status": "active-with-author-decisions",
+      "start": 8167,
+      "end": 8210
+    },
+    {
+      "id": "183f38cb84a18011b37ee06bec668224",
+      "title": "肉體強度",
+      "status": "active-with-author-decisions",
+      "start": 8211,
+      "end": 8226
+    },
+    {
+      "id": "1e8f38cb84a1801f9810e671bcc045fd",
+      "title": "靈魂強度",
+      "status": "active-with-author-decisions",
+      "start": 8227,
+      "end": 8238
+    },
+    {
+      "id": "17bf38cb84a180bcbe2bd734db402f28",
+      "title": "魅力強度",
+      "status": "active-with-author-decisions",
+      "start": 8239,
+      "end": 8300
+    },
+    {
+      "id": "17bf38cb84a18006b38efd80d4518f4c",
+      "title": "智慧強度",
+      "status": "active-with-author-decisions",
+      "start": 8301,
+      "end": 8371
+    },
+    {
+      "id": "17df38cb84a1808e8952d4c49daf9a52",
+      "title": "能量複合理論",
+      "status": "active-with-author-decisions",
+      "start": 8372,
+      "end": 8403
+    },
+    {
+      "id": "657b6755d325437486b300106aa90c03",
+      "title": "九種修煉同源複合體系：",
+      "status": "active-with-author-decisions",
+      "start": 8404,
+      "end": 8445
+    },
+    {
+      "id": "f1ea68f5bb2f468c8031df862d9a6cfc",
+      "title": "仙武（輔助修煉）",
+      "status": "active-with-author-decisions",
+      "start": 8446,
+      "end": 8467
+    },
+    {
+      "id": "bd4fa040010544538e7fad5a0e8f9eac",
+      "title": "霸氣（強力震懾）",
+      "status": "active-with-author-decisions",
+      "start": 8468,
+      "end": 8489
+    },
+    {
+      "id": "ab26774f1e874767b6fc841589e55dc6",
+      "title": "仙御（強力御物）",
+      "status": "active-with-author-decisions",
+      "start": 8490,
+      "end": 8513
+    },
+    {
+      "id": "9554f4989eb8480391400ab765a4e2a5",
+      "title": "魂天",
+      "status": "active-with-author-decisions",
+      "start": 8514,
+      "end": 8531
+    },
+    {
+      "id": "466ca81376d847ac94f9e090a756060c",
+      "title": "魂神（奪舍比拼）",
+      "status": "active-with-author-decisions",
+      "start": 8532,
+      "end": 8551
+    },
+    {
+      "id": "72ad194d9be7496e84790b70a032288e",
+      "title": "十五種支配同源複合體系：",
+      "status": "active-with-author-decisions",
+      "start": 8552,
+      "end": 8598
+    },
+    {
+      "id": "b4397fa5a2cb4b6f952ba7a68853430f",
+      "title": "幻極（掌控魔法手段）",
+      "status": "active-with-author-decisions",
+      "start": 8599,
+      "end": 8624
+    },
+    {
+      "id": "3010afe477d74166844b3aa10b954b67",
+      "title": "制",
+      "status": "active-with-author-decisions",
+      "start": 8625,
+      "end": 8640
+    },
+    {
+      "id": "2e0172a46cec4c24ae2a1db9a941b980",
+      "title": "虛能（煉金必備）",
+      "status": "active-with-author-decisions",
+      "start": 8641,
+      "end": 8664
+    },
+    {
+      "id": "cec8e3ccb03c4565b384a8acec318575",
+      "title": "永樂（信仰思念網）",
+      "status": "active-with-author-decisions",
+      "start": 8665,
+      "end": 8694
+    },
+    {
+      "id": "384343259a874023b289ffcb02e0f089",
+      "title": "源軸（機戰神強化）",
+      "status": "active-with-author-decisions",
+      "start": 8695,
+      "end": 8714
+    },
+    {
+      "id": "3d591f39f0bb481c92720f6c3443d882",
+      "title": "達界",
+      "status": "active-with-author-decisions",
+      "start": 8715,
+      "end": 8732
+    },
+    {
+      "id": "06443e8352cb4754bf2bed159e998e75",
+      "title": "二十九種異源複合體系（劇情不全出現）：",
+      "status": "active-with-author-decisions",
+      "start": 8733,
+      "end": 8803
+    },
+    {
+      "id": "eeaad144c33240bb867a10cc6628d301",
+      "title": "鬥氣（魔法近戰主流）",
+      "status": "active-with-author-decisions",
+      "start": 8804,
+      "end": 8889
+    },
+    {
+      "id": "06254cc4c9d3418d8915dac44c217401",
+      "title": "䵻龗（最強至高能量）",
+      "status": "active-with-author-decisions",
+      "start": 8890,
+      "end": 8913
+    },
+    {
+      "id": "5f7869aeea24451dac6ca735e829a2a9",
+      "title": "祈術（天地之力加護）",
+      "status": "active-with-author-decisions",
+      "start": 8914,
+      "end": 8963
+    },
+    {
+      "id": "767a4fb587c540e19e1ef19852496253",
+      "title": "咒術（詭秘詛咒之力）",
+      "status": "active-with-author-decisions",
+      "start": 8964,
+      "end": 9027
+    },
+    {
+      "id": "f98b2e0dadfe4828be7561ae0c834226",
+      "title": "奧勒（意志之投射）",
+      "status": "active-with-author-decisions",
+      "start": 9028,
+      "end": 9050
+    },
+    {
+      "id": "c28ce9ef1ea84f028c588ba5df6d8625",
+      "title": "異虛（上位版靈力）",
+      "status": "active-with-author-decisions",
+      "start": 9051,
+      "end": 9076
+    },
+    {
+      "id": "e12ff5b9da9040fd9ff15cd2bc19a230",
+      "title": "宙法（內視調和之力）",
+      "status": "active-with-author-decisions",
+      "start": 9077,
+      "end": 9094
+    },
+    {
+      "id": "1add4e21c0cf4f7a9b0dec1ca4cc27a9",
+      "title": "卍照（萬物親和力）",
+      "status": "active-with-author-decisions",
+      "start": 9095,
+      "end": 9104
+    },
+    {
+      "id": "cb315eed650a4331a4ae65b93c49b420",
+      "title": "相（加速真氣修煉）",
+      "status": "active-with-author-decisions",
+      "start": 9105,
+      "end": 9116
+    },
+    {
+      "id": "73ff6f9b846749828c280f2255874ce9",
+      "title": "元（加速靈力修煉）",
+      "status": "active-with-author-decisions",
+      "start": 9117,
+      "end": 9126
+    },
+    {
+      "id": "3447aae999bf47788403782db0c3f216",
+      "title": "望（個體聲望之力）",
+      "status": "active-with-author-decisions",
+      "start": 9127,
+      "end": 9156
+    },
+    {
+      "id": "b6e46bb7b5084fb3be199e63fa675fc5",
+      "title": "混（暴虐破壞之力，炸藥）",
+      "status": "active-with-author-decisions",
+      "start": 9157,
+      "end": 9168
+    },
+    {
+      "id": "db5a204227ca44a0ba37fed9e8f9b064",
+      "title": "源氣",
+      "status": "active-with-author-decisions",
+      "start": 9169,
+      "end": 9176
+    },
+    {
+      "id": "5a16a1d16cf34cda90688608d2b70809",
+      "title": "靈源",
+      "status": "active-with-author-decisions",
+      "start": 9177,
+      "end": 9184
+    },
+    {
+      "id": "2ceb800bb40f4ba5989c13a0cb58111e",
+      "title": "羅源",
+      "status": "active-with-author-decisions",
+      "start": 9185,
+      "end": 9192
+    },
+    {
+      "id": "1143d46b772541b08737509bf9214288",
+      "title": "陰源",
+      "status": "active-with-author-decisions",
+      "start": 9193,
+      "end": 9200
+    },
+    {
+      "id": "178f38cb84a180d5a4e9c405ff5cc523",
+      "title": "鬥氣應用基礎",
+      "status": "active-with-author-decisions",
+      "start": 9201,
+      "end": 9212
+    },
+    {
+      "id": "4b4f5735c46c4124aa4673446bff7454",
+      "title": "世界觀&地理",
+      "status": "active-with-author-decisions",
+      "start": 9213,
+      "end": 9360
+    },
+    {
+      "id": "afb02b079ac14368bc5aac3f85480262",
+      "title": "蒼究世界簡介",
+      "status": "active-with-author-decisions",
+      "start": 9361,
+      "end": 9397
+    },
+    {
+      "id": "6f413ce7050d4fedbf21c358c6f01bc5",
+      "title": "天輝大陸",
+      "status": "active-with-author-decisions",
+      "start": 9398,
+      "end": 9439
+    },
+    {
+      "id": "f8c9cdc0f7764513b4ce23520038c838",
+      "title": "瑞澤大陸",
+      "status": "active-with-author-decisions",
+      "start": 9440,
+      "end": 9447
+    },
+    {
+      "id": "5fa1c700c8da41feb3356ebb2db2fc48",
+      "title": "璇霄大陸",
+      "status": "active-with-author-decisions",
+      "start": 9448,
+      "end": 9455
+    },
+    {
+      "id": "cdf4c08a156440f3bca27d3c7fe27aa7",
+      "title": "夢之殤",
+      "status": "active-with-author-decisions",
+      "start": 9456,
+      "end": 9463
+    },
+    {
+      "id": "950afb2a698947cb91a9e4d3514fc5f6",
+      "title": "魔域群島",
+      "status": "active-with-author-decisions",
+      "start": 9464,
+      "end": 9471
+    },
+    {
+      "id": "5ea59f4be0d0443a983e8615b40e4102",
+      "title": "萬魔之巔",
+      "status": "active-with-author-decisions",
+      "start": 9472,
+      "end": 9479
+    },
+    {
+      "id": "206a954e23d94b8c8440c59a70aab580",
+      "title": "幽影大陸",
+      "status": "active-with-author-decisions",
+      "start": 9480,
+      "end": 9487
+    },
+    {
+      "id": "c7521a49ecb2449fb1088d657d8f68f4",
+      "title": "無盡海地區",
+      "status": "active-with-author-decisions",
+      "start": 9488,
+      "end": 9495
+    },
+    {
+      "id": "7b4f72268d2e4d5d837b4b9d92628db7",
+      "title": "影之世界",
+      "status": "active-with-author-decisions",
+      "start": 9496,
+      "end": 9503
+    },
+    {
+      "id": "5fc78180e8444d08bd4d82d6d3f9a1fa",
+      "title": "次元蟲洞",
+      "status": "active-with-author-decisions",
+      "start": 9504,
+      "end": 9511
+    },
+    {
+      "id": "2df4082b6d7e4960a3e4a3134d316d6a",
+      "title": "鏡像世界",
+      "status": "active-with-author-decisions",
+      "start": 9512,
+      "end": 9519
+    },
+    {
+      "id": "ede03253466a43fd90f58df602abb092",
+      "title": "數位世界",
+      "status": "active-with-author-decisions",
+      "start": 9520,
+      "end": 9531
+    },
+    {
+      "id": "b9003be77a7e40018f3700691ab49f08",
+      "title": "靈界世界觀概述",
+      "status": "active-with-author-decisions",
+      "start": 9532,
+      "end": 9572
+    },
+    {
+      "id": "43cfac7a66554a17915d11aa9e7a6c0a",
+      "title": "冥界",
+      "status": "active-with-author-decisions",
+      "start": 9573,
+      "end": 9612
+    },
+    {
+      "id": "23509e82774d4773a3856c496c8cc0ae",
+      "title": "輪迴界",
+      "status": "active-with-author-decisions",
+      "start": 9613,
+      "end": 9672
+    },
+    {
+      "id": "20b3f0415ddd4990a8468320fe42e5b9",
+      "title": "宇宙",
+      "status": "active-with-author-decisions",
+      "start": 9673,
+      "end": 9684
+    },
+    {
+      "id": "6875f2946cf941419dc9209d5ec96a87",
+      "title": "仙界",
+      "status": "active-with-author-decisions",
+      "start": 9685,
+      "end": 9708
+    },
+    {
+      "id": "d4c6eb743a7c4966a2ba89a030c330ca",
+      "title": "祕境",
+      "status": "active-with-author-decisions",
+      "start": 9709,
+      "end": 9748
+    },
+    {
+      "id": "6b43d973d1ef4e19a07ca0914e8c2f65",
+      "title": "高塔",
+      "status": "active-with-author-decisions",
+      "start": 9749,
+      "end": 9772
+    },
+    {
+      "id": "1fd2ee60a6ce46e1b7089b6aa33f56fa",
+      "title": "地下城",
+      "status": "active-with-author-decisions",
+      "start": 9773,
+      "end": 9800
+    },
+    {
+      "id": "76d0c61859324abea4fc253675e639a4",
+      "title": "迷宮",
+      "status": "active-with-author-decisions",
+      "start": 9801,
+      "end": 9820
+    },
+    {
+      "id": "aaba2faf276e4a8cb0a195a38ec0c8f7",
+      "title": "次元門",
+      "status": "active-with-author-decisions",
+      "start": 9821,
+      "end": 9888
+    },
+    {
+      "id": "c93dca847a0b4b5a9579f8c7bb7e78cb",
+      "title": "遺跡",
+      "status": "active-with-author-decisions",
+      "start": 9889,
+      "end": 9916
+    },
+    {
+      "id": "1a4f38cb84a18085bff7d76826a8d4a8",
+      "title": "特殊星體",
+      "status": "active-with-author-decisions",
+      "start": 9917,
+      "end": 9924
+    },
+    {
+      "id": "1a4f38cb84a180719d00c37e6a604ba4",
+      "title": "特殊星座",
+      "status": "active-with-author-decisions",
+      "start": 9925,
+      "end": 9932
+    },
+    {
+      "id": "d20036fd46024a02bb16a65bf286bf1d",
+      "title": "靈界種族（特殊存在，全具魔）",
+      "status": "active-with-author-decisions",
+      "start": 9933,
+      "end": 9980
+    },
+    {
+      "id": "73ac303f6c0c46ffbf1869e7e73f5b7e",
+      "title": "天使",
+      "status": "active-with-author-decisions",
+      "start": 9981,
+      "end": 10002
+    },
+    {
+      "id": "5f00563b2c0548029e6b569dc5a39170",
+      "title": "惡魔",
+      "status": "active-with-author-decisions",
+      "start": 10003,
+      "end": 10024
+    },
+    {
+      "id": "630a23b810ba45588039ca9c044345b9",
+      "title": "精靈",
+      "status": "active-with-author-decisions",
+      "start": 10025,
+      "end": 10046
+    },
+    {
+      "id": "76cb5815f75d4dd39b656e84496ed974",
+      "title": "英靈",
+      "status": "active-with-author-decisions",
+      "start": 10047,
+      "end": 10068
+    },
+    {
+      "id": "f256ce371abb45b99d95340955cd9b14",
+      "title": "歷史(人族視角)",
+      "status": "active-with-author-decisions",
+      "start": 10069,
+      "end": 10130
+    },
+    {
+      "id": "e1e78ad6a674488faef2e2025c11142d",
+      "title": "造物譚：半神界域誕生",
+      "status": "active-with-author-decisions",
+      "start": 10131,
+      "end": 10146
+    },
+    {
+      "id": "84fcff7eeee64c058b7612175da71285",
+      "title": "新紀元—眾生的呢喃",
+      "status": "active-with-author-decisions",
+      "start": 10147,
+      "end": 10158
+    },
+    {
+      "id": "5dd12f162dba407ba68baec1d9c0d9fe",
+      "title": "破滅與再生 & 黑暗時期",
+      "status": "active-with-author-decisions",
+      "start": 10159,
+      "end": 10196
+    },
+    {
+      "id": "9a1c335110c74390a3c34bac723e37b3",
+      "title": "制衡譚：伴生種族誕生",
+      "status": "active-with-author-decisions",
+      "start": 10197,
+      "end": 10236
+    },
+    {
+      "id": "5ef814b154064ca4b8d8585c556d4b90",
+      "title": "大分裂",
+      "status": "active-with-author-decisions",
+      "start": 10237,
+      "end": 10246
+    },
+    {
+      "id": "fb234ca8da0f45e7a44b1232d6174a48",
+      "title": "平戰七雄（蒼和元年）",
+      "status": "active-with-author-decisions",
+      "start": 10247,
+      "end": 10310
+    },
+    {
+      "id": "19e9579a93124fc68b2a63186ad8b964",
+      "title": "人祖崛起",
+      "status": "active-with-author-decisions",
+      "start": 10311,
+      "end": 10330
+    },
+    {
+      "id": "18283e05b85b4eb5ace4503aefc0269c",
+      "title": "拉普拉斯征戰",
+      "status": "active-with-author-decisions",
+      "start": 10331,
+      "end": 10342
+    },
+    {
+      "id": "183f38cb84a180fc8b83e04d154ac268",
+      "title": "帝皇盛世",
+      "status": "active-with-author-decisions",
+      "start": 10343,
+      "end": 10354
+    },
+    {
+      "id": "253ed8dff04c4e478d18b04c03a9caa8",
+      "title": "黃金時代",
+      "status": "active-with-author-decisions",
+      "start": 10355,
+      "end": 10366
+    },
+    {
+      "id": "87b4c11087b540eeba44177c20c87f13",
+      "title": "科技革命",
+      "status": "active-with-author-decisions",
+      "start": 10367,
+      "end": 10394
+    },
+    {
+      "id": "233e2ab5774c41bcbae13634481144c3",
+      "title": "人族內戰",
+      "status": "active-with-author-decisions",
+      "start": 10395,
+      "end": 10417
+    },
+    {
+      "id": "abd2a9e68dc844d9af2b5a3e202299a8",
+      "title": "星盟成立",
+      "status": "active-with-author-decisions",
+      "start": 10418,
+      "end": 10427
+    },
+    {
+      "id": "776eeac79309414cb1096618439403b8",
+      "title": "滅鬼聖戰",
+      "status": "active-with-author-decisions",
+      "start": 10428,
+      "end": 10437
+    },
+    {
+      "id": "d17ea9536b6f4b1b86510617194983f5",
+      "title": "和平協議",
+      "status": "active-with-author-decisions",
+      "start": 10438,
+      "end": 10447
+    },
+    {
+      "id": "1b58329c377f40529d46e445bcf6824b",
+      "title": "新星崛起",
+      "status": "active-with-author-decisions",
+      "start": 10448,
+      "end": 10457
+    },
+    {
+      "id": "183f38cb84a180aba5c0c1a893fba134",
+      "title": "體系制衡",
+      "status": "active-with-author-decisions",
+      "start": 10458,
+      "end": 10465
+    },
+    {
+      "id": "5787bbc33b0f4a6fae1548f185432a8c",
+      "title": "人祖",
+      "status": "active-with-author-decisions",
+      "start": 10466,
+      "end": 10483
+    },
+    {
+      "id": "974195c658354a7eba9bf01cff2d4732",
+      "title": "拉普拉斯（哈沃●蘭斯洛）",
+      "status": "active-with-author-decisions",
+      "start": 10484,
+      "end": 10505
+    },
+    {
+      "id": "67021c17bb284a90bd16f2d1703c4ff3",
+      "title": "天官鬼老的秘密",
+      "status": "active-with-author-decisions",
+      "start": 10506,
+      "end": 10537
+    },
+    {
+      "id": "5f420da1f66a41fbb4adcc60db811fcf",
+      "title": "兩儀棋（不完全）",
+      "status": "active-with-author-decisions",
+      "start": 10538,
+      "end": 10584
+    },
+    {
+      "id": "f6780c95d8924fe3b4f59f38b681b4a4",
+      "title": "現今勢力",
+      "status": "active-with-author-decisions",
+      "start": 10585,
+      "end": 10676
+    },
+    {
+      "id": "d3fd8ddd8f0148a188d9c1953d295812",
+      "title": "人族勢力",
+      "status": "active-with-author-decisions",
+      "start": 10677,
+      "end": 10754
+    },
+    {
+      "id": "6c04ac2a71c54682a436b05bd5bf8eda",
+      "title": "妖族勢力",
+      "status": "active-with-author-decisions",
+      "start": 10755,
+      "end": 10814
+    },
+    {
+      "id": "749f14bd3300437889590ead35fde6ed",
+      "title": "萬獸體系勢力",
+      "status": "active-with-author-decisions",
+      "start": 10815,
+      "end": 10856
+    },
+    {
+      "id": "7e61ad8cbbe54ac3b3cb6e9df04081b8",
+      "title": "精怪體系勢力",
+      "status": "active-with-author-decisions",
+      "start": 10857,
+      "end": 10908
+    },
+    {
+      "id": "5868f4c395b2488cb12e16996c98df5a",
+      "title": "神話種族勢力",
+      "status": "active-with-author-decisions",
+      "start": 10909,
+      "end": 10940
+    },
+    {
+      "id": "d9f4c7a07ca9430aa14282ca9b03c609",
+      "title": "其它異族勢力",
+      "status": "active-with-author-decisions",
+      "start": 10941,
+      "end": 10978
+    },
+    {
+      "id": "effcfaf0ff2047008d09c14e48036b9a",
+      "title": "裡世界勢力",
+      "status": "active-with-author-decisions",
+      "start": 10979,
+      "end": 10986
+    },
+    {
+      "id": "ac2174a02f314e1db166baeffeeffff0",
+      "title": "時空家族（次元型家族）",
+      "status": "active-with-author-decisions",
+      "start": 10987,
+      "end": 11062
+    },
+    {
+      "id": "5253b365fcd248868f61dfff44afa1ec",
+      "title": "仙界勢力",
+      "status": "active-with-author-decisions",
+      "start": 11063,
+      "end": 11072
+    },
+    {
+      "id": "f7ff50e1c63f48b1bd9163cfb4b8f9bf",
+      "title": "封聖峰會",
+      "status": "active-with-author-decisions",
+      "start": 11073,
+      "end": 11096
+    },
+    {
+      "id": "44d04a97ed6f4eccbd2a91d77d691125",
+      "title": "瑞澤共榮圈",
+      "status": "active-with-author-decisions",
+      "start": 11097,
+      "end": 11110
+    },
+    {
+      "id": "46d46711ec394e9180c8226cdc70652b",
+      "title": "蒼究反戰盟",
+      "status": "active-with-author-decisions",
+      "start": 11111,
+      "end": 11138
+    },
+    {
+      "id": "41db6f7e99034abdbb2d24fb9f211bc7",
+      "title": "顧氏拍賣行",
+      "status": "active-with-author-decisions",
+      "start": 11139,
+      "end": 11194
+    },
+    {
+      "id": "630a18c070e54b349d4dd09fea39414d",
+      "title": "特廚殿",
+      "status": "active-with-author-decisions",
+      "start": 11195,
+      "end": 11226
+    },
+    {
+      "id": "206f38cb84a18043ac63ede757cba514",
+      "title": "究正迴廊",
+      "status": "active-with-author-decisions",
+      "start": 11227,
+      "end": 11252
+    },
+    {
+      "id": "208f38cb84a18061b5d5cc8aa7a8bd05",
+      "title": "萬族風俗館",
+      "status": "active-with-author-decisions",
+      "start": 11253,
+      "end": 11266
+    },
+    {
+      "id": "4325c93636584331b63c6dda7746458a",
+      "title": "弒生犬",
+      "status": "active-with-author-decisions",
+      "start": 11267,
+      "end": 11304
+    },
+    {
+      "id": "3c15b61d7f4f490d9a72b7f6a68c765f",
+      "title": "魔王眾",
+      "status": "active-with-author-decisions",
+      "start": 11305,
+      "end": 11322
+    },
+    {
+      "id": "209f38cb84a180f1818ce96cffa5a0b7",
+      "title": "煞哈迪",
+      "status": "active-with-author-decisions",
+      "start": 11323,
+      "end": 11364
+    },
+    {
+      "id": "16ff38cb84a1804da18bde2843393af7",
+      "title": "雛鴿",
+      "status": "active-with-author-decisions",
+      "start": 11365,
+      "end": 11395
+    },
+    {
+      "id": "16ff38cb84a1800086a8cd68f921f50c",
+      "title": "肉笙城",
+      "status": "active-with-author-decisions",
+      "start": 11396,
+      "end": 11415
+    },
+    {
+      "id": "18cf38cb84a180e3a88ad57253054866",
+      "title": "魔女教派",
+      "status": "active-with-author-decisions",
+      "start": 11416,
+      "end": 11423
+    },
+    {
+      "id": "e75a63a61b2d454d8c7dc4d30960f52e",
+      "title": "盜賊公會",
+      "status": "active-with-author-decisions",
+      "start": 11424,
+      "end": 11431
+    },
+    {
+      "id": "179f38cb84a1807ebf8aea6cc882f00e",
+      "title": "妖神組織",
+      "status": "active-with-author-decisions",
+      "start": 11432,
+      "end": 11445
+    },
+    {
+      "id": "cc9cdc472d274c0aae52829253ee2cb7",
+      "title": "勇者協會",
+      "status": "active-with-author-decisions",
+      "start": 11446,
+      "end": 11461
+    },
+    {
+      "id": "208f38cb84a180a79595cfcc50fb390d",
+      "title": "食鬼公會",
+      "status": "active-with-author-decisions",
+      "start": 11462,
+      "end": 11471
+    },
+    {
+      "id": "275f38cb84a180d29ef6c570b8959b38",
+      "title": "寵獸御獸師協會",
+      "status": "active-with-author-decisions",
+      "start": 11472,
+      "end": 11485
+    },
+    {
+      "id": "03695b96613e49e4b483d11798cef1f1",
+      "title": "修煉體系勢力",
+      "status": "active-with-author-decisions",
+      "start": 11486,
+      "end": 11499
+    },
+    {
+      "id": "767a36b8d9864ba085fafbbb7781ac37",
+      "title": "支配體系勢力",
+      "status": "active-with-author-decisions",
+      "start": 11500,
+      "end": 11513
+    },
+    {
+      "id": "1704434fccb4447da5261309e9551470",
+      "title": "其它體系勢力",
+      "status": "active-with-author-decisions",
+      "start": 11514,
+      "end": 11521
+    },
+    {
+      "id": "772e7e7092044bb596bdd7d87e46d268",
+      "title": "永恆聯邦泰克諾爾（西方科技聯盟十六國）",
+      "status": "active-with-author-decisions",
+      "start": 11522,
+      "end": 11619
+    },
+    {
+      "id": "eae8a92545b04bc3848f07659c367868",
+      "title": "邊際低開發產業國",
+      "status": "active-with-author-decisions",
+      "start": 11620,
+      "end": 11633
+    },
+    {
+      "id": "602a4eb561d34369a51803a9de97aa8b",
+      "title": "幻神聖朝戴洛艾色",
+      "status": "active-with-author-decisions",
+      "start": 11634,
+      "end": 11741
+    },
+    {
+      "id": "5d41c3af08844b34993b9febede6bc44",
+      "title": "十一魔法塔與附屬城",
+      "status": "active-with-author-decisions",
+      "start": 11742,
+      "end": 11779
+    },
+    {
+      "id": "3d062c416f8547e89ff626c6f7395cfe",
+      "title": "中古諸城",
+      "status": "active-with-author-decisions",
+      "start": 11780,
+      "end": 11793
+    },
+    {
+      "id": "ce435a55f8c749d781893b01f979941f",
+      "title": "主流勢力：若夢埃頌元境紫雲宸聖天帝國",
+      "status": "active-with-author-decisions",
+      "start": 11794,
+      "end": 11896
+    },
+    {
+      "id": "e03accd748cf476882cafc09e2b3bd32",
+      "title": "非主流勢力：東方修真界六宗十二派",
+      "status": "active-with-author-decisions",
+      "start": 11897,
+      "end": 11926
+    },
+    {
+      "id": "fed1ce7eeddd4d288e397357efc75f2e",
+      "title": "小勢力：天北百州",
+      "status": "active-with-author-decisions",
+      "start": 11927,
+      "end": 11938
+    },
+    {
+      "id": "fdca131a61354b78a3fe852326776c7d",
+      "title": "極境三奇國",
+      "status": "active-with-author-decisions",
+      "start": 11939,
+      "end": 11952
+    },
+    {
+      "id": "654cb271c2394ead84b81257dcd64af7",
+      "title": "荒漠民村",
+      "status": "active-with-author-decisions",
+      "start": 11953,
+      "end": 11960
+    },
+    {
+      "id": "16bf38cb84a1803892a2d1c8985a4270",
+      "title": "鬼族從屬國",
+      "status": "active-with-author-decisions",
+      "start": 11961,
+      "end": 11990
+    },
+    {
+      "id": "6480b11c10e74186a2c001dccba9060e",
+      "title": "翼人領地",
+      "status": "active-with-author-decisions",
+      "start": 11991,
+      "end": 12000
+    },
+    {
+      "id": "17a5d45670ff4658b07f60d3c4549bad",
+      "title": "魚人國",
+      "status": "active-with-author-decisions",
+      "start": 12001,
+      "end": 12010
+    },
+    {
+      "id": "1deb6afbfb7f43c9a166ef65db87df0e",
+      "title": "鬼族勢力&機構",
+      "status": "active-with-author-decisions",
+      "start": 12011,
+      "end": 12083
+    },
+    {
+      "id": "716915bab8264c5ca2421602a8c10374",
+      "title": "泰克諾爾簡介",
+      "status": "active-with-author-decisions",
+      "start": 12084,
+      "end": 12106
+    },
+    {
+      "id": "207f38cb84a180d7b186e87dc9526668",
+      "title": "大總統",
+      "status": "active-with-author-decisions",
+      "start": 12107,
+      "end": 12118
+    },
+    {
+      "id": "206f38cb84a180f98debf49a7160dc1e",
+      "title": "泰克諾爾三十六大都",
+      "status": "active-with-author-decisions",
+      "start": 12119,
+      "end": 12128
+    },
+    {
+      "id": "173f38cb84a180adad05d652a5c0a7e3",
+      "title": "法王的誕生與更替",
+      "status": "active-with-author-decisions",
+      "start": 12129,
+      "end": 12146
+    },
+    {
+      "id": "173f38cb84a180e284efe0b4a4d6b442",
+      "title": "歷代法王",
+      "status": "active-with-author-decisions",
+      "start": 12147,
+      "end": 12162
+    },
+    {
+      "id": "204f38cb84a18090a165c932adde32b5",
+      "title": "戴洛艾色的貴族",
+      "status": "active-with-author-decisions",
+      "start": 12163,
+      "end": 12212
+    },
+    {
+      "id": "7d9ab0a879ee469aa835a7f43229530a",
+      "title": "皇室紫雲宸",
+      "status": "active-with-author-decisions",
+      "start": 12213,
+      "end": 12241
+    },
+    {
+      "id": "1b80bd420a944cdbaf204268ebcaaf61",
+      "title": "天輝山",
+      "status": "active-with-author-decisions",
+      "start": 12242,
+      "end": 12274
+    },
+    {
+      "id": "c00775943c024d789dbb006ff5cb7ac4",
+      "title": "諾忒學院",
+      "status": "active-with-author-decisions",
+      "start": 12275,
+      "end": 12304
+    },
+    {
+      "id": "6c8b9dcfe97d4983b071b8356b7e507d",
+      "title": "大五行天道宗",
+      "status": "active-with-author-decisions",
+      "start": 12305,
+      "end": 12356
+    },
+    {
+      "id": "06e83ecebb754a85b8e573c19066f67e",
+      "title": "可愛貓貓會",
+      "status": "active-with-author-decisions",
+      "start": 12357,
+      "end": 12366
+    },
+    {
+      "id": "c68a7bf59fb24844a9553c4c0c89342e",
+      "title": "仙劍門",
+      "status": "active-with-author-decisions",
+      "start": 12367,
+      "end": 12376
+    },
+    {
+      "id": "11b90cafa42d441ab98db490309438e6",
+      "title": "靈龜宗",
+      "status": "active-with-author-decisions",
+      "start": 12377,
+      "end": 12386
+    },
+    {
+      "id": "c71ec6df149e46458fe21b93e13a964e",
+      "title": "無邪教",
+      "status": "active-with-author-decisions",
+      "start": 12387,
+      "end": 12394
+    },
+    {
+      "id": "3b02a11eb1744ef9ac27fb977a9b1aed",
+      "title": "職位貢獻&俸祿比例(文字修仙遊戲資料)",
+      "status": "active-with-author-decisions",
+      "start": 12395,
+      "end": 12419
+    },
+    {
+      "id": "16bf38cb84a1809e9ba6c634ce28e1bc",
+      "title": "優仕威洛國",
+      "status": "active-with-author-decisions",
+      "start": 12420,
+      "end": 12549
+    },
+    {
+      "id": "7fcf07dfa91444cea14314bcbba587ce",
+      "title": "翼人族",
+      "status": "active-with-author-decisions",
+      "start": 12550,
+      "end": 12567
+    },
+    {
+      "id": "6d5d73c6bf974027a240042fbcff3c5b",
+      "title": "人魚族",
+      "status": "active-with-author-decisions",
+      "start": 12568,
+      "end": 12640
+    },
+    {
+      "id": "101f38cb84a180d98eabdce1a571b096",
+      "title": "大型鬼城＆鬼國",
+      "status": "active-with-author-decisions",
+      "start": 12641,
+      "end": 12688
+    },
+    {
+      "id": "16ff38cb84a180eebeb0c62e87bdf27e",
+      "title": "常見鬼貴族",
+      "status": "active-with-author-decisions",
+      "start": 12689,
+      "end": 12696
+    },
+    {
+      "id": "204f38cb84a180d6acd8ec8ce0ad56a7",
+      "title": "戴洛艾色公爵家族",
+      "status": "active-with-author-decisions",
+      "start": 12697,
+      "end": 12704
+    },
+    {
+      "id": "d9ed237044db46a8bef4dad9ba42801b",
+      "title": "諾忒學院仙境桃花源",
+      "status": "active-with-author-decisions",
+      "start": 12705,
+      "end": 12750
+    },
+    {
+      "id": "7a503731597d4f589cdec5bdeec15502",
+      "title": "諾忒學院正統功法",
+      "status": "active-with-author-decisions",
+      "start": 12751,
+      "end": 12780
+    },
+    {
+      "id": "16ff38cb84a18072b116e96bdc4723d3",
+      "title": "可愛貓貓會文字修仙遊戲資料",
+      "status": "active-with-author-decisions",
+      "start": 12781,
+      "end": 12831
+    },
+    {
+      "id": "581a665a11704012b6ab4bcec61606ff",
+      "title": "仙劍門文字修仙遊戲資料",
+      "status": "active-with-author-decisions",
+      "start": 12832,
+      "end": 12880
+    },
+    {
+      "id": "16ff38cb84a180a495eee9dda1ae0431",
+      "title": "靈龜宗文字修仙遊戲資料",
+      "status": "active-with-author-decisions",
+      "start": 12881,
+      "end": 12933
+    },
+    {
+      "id": "ff9a62db9bf64efd8e331f196c81c83b",
+      "title": "種族",
+      "status": "active-with-author-decisions",
+      "start": 12934,
+      "end": 12987
+    },
+    {
+      "id": "40afacee44794cde99200dbc58a3d6b9",
+      "title": "常見通用進化一覽",
+      "status": "active-with-author-decisions",
+      "start": 12988,
+      "end": 13021
+    },
+    {
+      "id": "32edfcb9e21d4b53b65d7554464188cd",
+      "title": "常見種族體系與其血脈階級一覽",
+      "status": "active-with-author-decisions",
+      "start": 13022,
+      "end": 13098
+    },
+    {
+      "id": "48ad8c72bfff4ae4b6b3e1af87b171bc",
+      "title": "人族對獸的實力分級與分類",
+      "status": "active-with-author-decisions",
+      "start": 13099,
+      "end": 13169
+    },
+    {
+      "id": "5f47cc8130974927be0cb25a4b4388be",
+      "title": "種族間特殊關係",
+      "status": "active-with-author-decisions",
+      "start": 13170,
+      "end": 13204
+    },
+    {
+      "id": "674c680a50c246dcbf8d92799f7c944d",
+      "title": "人、類人體系（當前凡間的主宰體系，具魔）",
+      "status": "active-with-author-decisions",
+      "start": 13205,
+      "end": 13289
+    },
+    {
+      "id": "9ad31078188d4c93aca56429847b95ef",
+      "title": "精怪體系(部份具魔)",
+      "status": "active-with-author-decisions",
+      "start": 13290,
+      "end": 13373
+    },
+    {
+      "id": "ac7fd2428bca460aa72dfcb77fa3d0e8",
+      "title": "寄生體系(具魔)",
+      "status": "active-with-author-decisions",
+      "start": 13374,
+      "end": 13414
+    },
+    {
+      "id": "19432e14daf34b1fad750251de2cce6e",
+      "title": "天行體系(具魔/不具魔)",
+      "status": "active-with-author-decisions",
+      "start": 13415,
+      "end": 13495
+    },
+    {
+      "id": "85ce59c1687c4b7cbdef3165b874cb9e",
+      "title": "肢節體系（具魔/不具魔）",
+      "status": "active-with-author-decisions",
+      "start": 13496,
+      "end": 13559
+    },
+    {
+      "id": "ee55b7266c9a48ea96ec377ea3cab877",
+      "title": "水行體系（具魔/不具魔）",
+      "status": "active-with-author-decisions",
+      "start": 13560,
+      "end": 13616
+    },
+    {
+      "id": "9ac2bcf1bf544957b717096d4a59dc30",
+      "title": "半神體系（具備神性、更能領悟法則）",
+      "status": "active-with-author-decisions",
+      "start": 13617,
+      "end": 13650
+    },
+    {
+      "id": "24adcf8f1aee4121a47574a875a275a2",
+      "title": "萬獸體系(不具魔)",
+      "status": "active-with-author-decisions",
+      "start": 13651,
+      "end": 13731
+    },
+    {
+      "id": "f9dd6e1230774b679d73d4530a280ce9",
+      "title": "次元物種(裡世界物種)",
+      "status": "active-with-author-decisions",
+      "start": 13732,
+      "end": 13772
+    },
+    {
+      "id": "5d19e423a95044b2a38744fda9ba0e50",
+      "title": "神話體系（遠古物種，全天階，全具魔）",
+      "status": "active-with-author-decisions",
+      "start": 13773,
+      "end": 13844
+    },
+    {
+      "id": "db6a16226e6942d8b9b142f8d714999d",
+      "title": "邪靈體系（遠古物種，全具魔）",
+      "status": "active-with-author-decisions",
+      "start": 13845,
+      "end": 13888
+    },
+    {
+      "id": "2abf38cb84a180289d4fe7885598a742",
+      "title": "聖靈體系（遠古物種，全具魔）",
+      "status": "active-with-author-decisions",
+      "start": 13889,
+      "end": 13930
+    },
+    {
+      "id": "fd8ff9608f5d443bafb413c457f07441",
+      "title": "冥界種族",
+      "status": "active-with-author-decisions",
+      "start": 13931,
+      "end": 13961
+    },
+    {
+      "id": "7b067e7050b44a2fb2541b48ac512f02",
+      "title": "人造物種",
+      "status": "active-with-author-decisions",
+      "start": 13962,
+      "end": 13976
+    },
+    {
+      "id": "7420d308b6784c5fb16d6bd0870ea8e3",
+      "title": "魔獸",
+      "status": "active-with-author-decisions",
+      "start": 13977,
+      "end": 14018
+    },
+    {
+      "id": "caf6284ad1754c36b9e1c8ba5f37bd0f",
+      "title": "妖獸",
+      "status": "active-with-author-decisions",
+      "start": 14019,
+      "end": 14052
+    },
+    {
+      "id": "144481d26138478e9da63e491aeb6029",
+      "title": "靈獸",
+      "status": "active-with-author-decisions",
+      "start": 14053,
+      "end": 14086
+    },
+    {
+      "id": "231f38cb84a180489a91eee2cba4c267",
+      "title": "特殊強大白獸",
+      "status": "active-with-author-decisions",
+      "start": 14087,
+      "end": 14094
+    },
+    {
+      "id": "179f38cb84a180cc8798d0b9a8166aa4",
+      "title": "森精族",
+      "status": "active-with-author-decisions",
+      "start": 14095,
+      "end": 14136
+    },
+    {
+      "id": "2c26491511a64c01b08f79b7688b39bb",
+      "title": "樹妖族",
+      "status": "active-with-author-decisions",
+      "start": 14137,
+      "end": 14195
+    },
+    {
+      "id": "fbbd4ff18b7c46228ec0ac20e78f39d9",
+      "title": "神兵族",
+      "status": "active-with-author-decisions",
+      "start": 14196,
+      "end": 14227
+    },
+    {
+      "id": "184f38cb84a18089a690d1ff37e4358f",
+      "title": "德魯伊族",
+      "status": "active-with-author-decisions",
+      "start": 14228,
+      "end": 14235
+    },
+    {
+      "id": "29df38cb84a180b78e61d28d4df68973",
+      "title": "甲蟲族",
+      "status": "active-with-author-decisions",
+      "start": 14236,
+      "end": 14243
+    },
+    {
+      "id": "29df38cb84a1808d9f85cae1b4a45669",
+      "title": "鬥蟻族",
+      "status": "active-with-author-decisions",
+      "start": 14244,
+      "end": 14251
+    },
+    {
+      "id": "2a4f38cb84a18060ba5efab93a365d07",
+      "title": "邪根族",
+      "status": "active-with-author-decisions",
+      "start": 14252,
+      "end": 14267
+    },
+    {
+      "id": "689a3c93e6884b12a88a43c17851b801",
+      "title": "哥布林族",
+      "status": "active-with-author-decisions",
+      "start": 14268,
+      "end": 14313
+    },
+    {
+      "id": "0af7fd45c0bd4af3aeadf221c58b3c5a",
+      "title": "鬼兔族",
+      "status": "active-with-author-decisions",
+      "start": 14314,
+      "end": 14351
+    },
+    {
+      "id": "f4a2cfa5d24945e59e3aaa19f2a13143",
+      "title": "獸人族",
+      "status": "active-with-author-decisions",
+      "start": 14352,
+      "end": 14413
+    },
+    {
+      "id": "272f20dfa980412a9ccc70274f5a2d25",
+      "title": "歐克族（綠皮/巨魔/半獸人）",
+      "status": "active-with-author-decisions",
+      "start": 14414,
+      "end": 14487
+    },
+    {
+      "id": "188f38cb84a1801a80bac94ab314819b",
+      "title": "影族",
+      "status": "active-with-author-decisions",
+      "start": 14488,
+      "end": 14495
+    },
+    {
+      "id": "187f38cb84a180ceb89ec660457dd688",
+      "title": "元素靈族",
+      "status": "active-with-author-decisions",
+      "start": 14496,
+      "end": 14503
+    },
+    {
+      "id": "183f38cb84a180c68812c394cd068cdf",
+      "title": "深淵",
+      "status": "active-with-author-decisions",
+      "start": 14504,
+      "end": 14511
+    },
+    {
+      "id": "673c6e3c80d2402db21daa4c83da3e02",
+      "title": "翼神龍族（西方龍）",
+      "status": "active-with-author-decisions",
+      "start": 14512,
+      "end": 14596
+    },
+    {
+      "id": "425c3e3c365b415ab68997ae2bc93103",
+      "title": "瑞神龍族（東方龍）",
+      "status": "active-with-author-decisions",
+      "start": 14597,
+      "end": 14680
+    },
+    {
+      "id": "f501f59d6ffa424fbfa47c7881bcc795",
+      "title": "鳳族",
+      "status": "active-with-author-decisions",
+      "start": 14681,
+      "end": 14704
+    },
+    {
+      "id": "4dcf6a1c5f5941d59e4df07713ce22e9",
+      "title": "巨人族",
+      "status": "active-with-author-decisions",
+      "start": 14705,
+      "end": 14714
+    },
+    {
+      "id": "37f095b9a2a34a399288d6c16c918b90",
+      "title": "泰坦族",
+      "status": "active-with-author-decisions",
+      "start": 14715,
+      "end": 14724
+    },
+    {
+      "id": "ad817ac870ac4967a5b60d4f1b5de4cd",
+      "title": "麒麟族",
+      "status": "active-with-author-decisions",
+      "start": 14725,
+      "end": 14732
+    },
+    {
+      "id": "bd2a74537cd545f4bc855b164dea56a0",
+      "title": "天球族",
+      "status": "active-with-author-decisions",
+      "start": 14733,
+      "end": 14756
+    },
+    {
+      "id": "3e7c230a33b94d81b849d29412efb969",
+      "title": "夢幻族",
+      "status": "active-with-author-decisions",
+      "start": 14757,
+      "end": 14782
+    },
+    {
+      "id": "2a4f38cb84a1800083bbc1aa09b05b3b",
+      "title": "克蘇魯族",
+      "status": "active-with-author-decisions",
+      "start": 14783,
+      "end": 14790
+    },
+    {
+      "id": "27bf38cb84a18076a85ac2075712f8bd",
+      "title": "詭異族",
+      "status": "active-with-author-decisions",
+      "start": 14791,
+      "end": 14800
+    },
+    {
+      "id": "1e3f38cb84a1803e91b2fdfab55f0333",
+      "title": "血族",
+      "status": "active-with-author-decisions",
+      "start": 14801,
+      "end": 14912
+    },
+    {
+      "id": "8fde54b2b7d24930a2e7ced96cdbd4bf",
+      "title": "銳一森",
+      "status": "active-with-author-decisions",
+      "start": 14913,
+      "end": 14948
+    },
+    {
+      "id": "6071cd570bf14c25adff428c0b0f89d4",
+      "title": "黃階血脈魔獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 14949,
+      "end": 14960
+    },
+    {
+      "id": "84bc5cf2d99b47eabf60fdf478d46e4e",
+      "title": "玄階血脈魔獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 14961,
+      "end": 14968
+    },
+    {
+      "id": "82b9d46e54b94fac87635f7626dd5753",
+      "title": "地階血脈魔獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 14969,
+      "end": 14976
+    },
+    {
+      "id": "e77a86338cd44135ba4700b3cb5e4423",
+      "title": "天階血脈魔獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 14977,
+      "end": 14984
+    },
+    {
+      "id": "e860cf96467d419d96491252ffc4ffae",
+      "title": "黃階血脈妖獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 14985,
+      "end": 14992
+    },
+    {
+      "id": "1f712b91675e4895a34caf749df921eb",
+      "title": "玄階血脈妖獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 14993,
+      "end": 15000
+    },
+    {
+      "id": "c5c9649e995342a08180e05f3244b967",
+      "title": "地階血脈妖獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 15001,
+      "end": 15008
+    },
+    {
+      "id": "c265f7ffdb48479180f4e2124929be51",
+      "title": "天階血脈妖獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 15009,
+      "end": 15016
+    },
+    {
+      "id": "30f7e5b7fe9e4d97b9300557b46afaf6",
+      "title": "黃階血脈靈獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 15017,
+      "end": 15024
+    },
+    {
+      "id": "a1e8cd4f24bf4b64be532395c22ea422",
+      "title": "玄階血脈靈獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 15025,
+      "end": 15032
+    },
+    {
+      "id": "2225ab1f819a4b899406f419924b7d7b",
+      "title": "地階血脈靈獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 15033,
+      "end": 15040
+    },
+    {
+      "id": "dc21a442b2f44ba38252c46beb5534cb",
+      "title": "天階血脈靈獸詳述",
+      "status": "active-with-author-decisions",
+      "start": 15041,
+      "end": 15048
+    },
+    {
+      "id": "69faf26a77bf4d84be6db0369490c1f9",
+      "title": "當初樹妖族競賽的草稿",
+      "status": "disabled",
+      "start": 15049,
+      "end": 15053
+    },
+    {
+      "id": "f91051465c654d2c9bf824d5e898ee33",
+      "title": "哥布林族的進化",
+      "status": "active-with-author-decisions",
+      "start": 15054,
+      "end": 15109
+    },
+    {
+      "id": "ff1371cf8f3745f6b50e2af5553b73c5",
+      "title": "翼神龍族VS瑞神龍族",
+      "status": "active-with-author-decisions",
+      "start": 15110,
+      "end": 15133
+    },
+    {
+      "id": "1e8f38cb84a180a7a971df282c138e4a",
+      "title": "彈羊",
+      "status": "active-with-author-decisions",
+      "start": 15134,
+      "end": 15155
+    },
+    {
+      "id": "0f9b36e7db3c4bf18c2e79be2d5ee3d4",
+      "title": "資源",
+      "status": "active-with-author-decisions",
+      "start": 15156,
+      "end": 15173
+    },
+    {
+      "id": "6203ba2ee8ca4cca9aa479384c1e433b",
+      "title": "自然資源",
+      "status": "active-with-author-decisions",
+      "start": 15174,
+      "end": 15243
+    },
+    {
+      "id": "9f28306127b8462cb6c847d182467605",
+      "title": "人造資源",
+      "status": "active-with-author-decisions",
+      "start": 15244,
+      "end": 15337
+    },
+    {
+      "id": "a5973b9140cb4e1db482dd727178f146",
+      "title": "非物質資源",
+      "status": "active-with-author-decisions",
+      "start": 15338,
+      "end": 15355
+    },
+    {
+      "id": "9cf3696178ca43ae99c8e7fec2d013a0",
+      "title": "常見特殊物品",
+      "status": "active-with-author-decisions",
+      "start": 15356,
+      "end": 15391
+    },
+    {
+      "id": "29df38cb84a180fdb5fdc3ee4e2d1f7c",
+      "title": "各大系列",
+      "status": "active-with-author-decisions",
+      "start": 15392,
+      "end": 15403
+    },
+    {
+      "id": "c87ef001d0804754b46861d3c5662956",
+      "title": "曠世本草榜",
+      "status": "active-with-author-decisions",
+      "start": 15404,
+      "end": 15421
+    },
+    {
+      "id": "9f7de47bfd9e4c0ea3125e74633bc9a4",
+      "title": "通天神礦榜",
+      "status": "active-with-author-decisions",
+      "start": 15422,
+      "end": 15441
+    },
+    {
+      "id": "c61acbdd167d4d1ebdf2c0e881edb15b",
+      "title": "焚世異火榜",
+      "status": "active-with-author-decisions",
+      "start": 15442,
+      "end": 15449
+    },
+    {
+      "id": "09bd37d3b04b4a918428bc8a5fa8bd54",
+      "title": "通天極光榜",
+      "status": "active-with-author-decisions",
+      "start": 15450,
+      "end": 15457
+    },
+    {
+      "id": "aa50dc3c4f94415ba2744e2793733f54",
+      "title": "蒼究裝備榜",
+      "status": "active-with-author-decisions",
+      "start": 15458,
+      "end": 15473
+    },
+    {
+      "id": "fbc9aaff47414e779238eb1bf9eafcce",
+      "title": "天氣與現象",
+      "status": "active-with-author-decisions",
+      "start": 15474,
+      "end": 15505
+    },
+    {
+      "id": "218f38cb84a180e7b725d92849769712",
+      "title": "法則穩定度",
+      "status": "active-with-author-decisions",
+      "start": 15506,
+      "end": 15523
+    },
+    {
+      "id": "933af58926924919950c7d112b5cc2da",
+      "title": "文化",
+      "status": "active-with-author-decisions",
+      "start": 15524,
+      "end": 15658
+    },
+    {
+      "id": "ce5804ed11d34d1383723e3b2ea1b3aa",
+      "title": "常見貨幣種類",
+      "status": "active-with-author-decisions",
+      "start": 15659,
+      "end": 15694
+    },
+    {
+      "id": "c9c3ca13b1914d6ab1d0deb47861863c",
+      "title": "節慶",
+      "status": "active-with-author-decisions",
+      "start": 15695,
+      "end": 15706
+    },
+    {
+      "id": "4681b774f9db440c87e3e248219bb8fa",
+      "title": "賽事",
+      "status": "active-with-author-decisions",
+      "start": 15707,
+      "end": 15714
+    },
+    {
+      "id": "e83a9c7f108d41f8a537ee6437bf5b68",
+      "title": "藝術",
+      "status": "active-with-author-decisions",
+      "start": 15715,
+      "end": 15732
+    },
+    {
+      "id": "20cf38cb84a1806f8fa1d842332ba33c",
+      "title": "書籍",
+      "status": "active-with-author-decisions",
+      "start": 15733,
+      "end": 15740
+    },
+    {
+      "id": "20cf38cb84a180b1b6f2d074b5665c81",
+      "title": "影音",
+      "status": "active-with-author-decisions",
+      "start": 15741,
+      "end": 15748
+    },
+    {
+      "id": "20cf38cb84a1806daf90c876b15e425c",
+      "title": "遊戲",
+      "status": "active-with-author-decisions",
+      "start": 15749,
+      "end": 15756
+    },
+    {
+      "id": "1e8486f05143499da7e40a3330b9522c",
+      "title": "音樂",
+      "status": "active-with-author-decisions",
+      "start": 15757,
+      "end": 15764
+    },
+    {
+      "id": "28c3a5e4e07f40629ded63bdc65235ff",
+      "title": "價值觀",
+      "status": "active-with-author-decisions",
+      "start": 15765,
+      "end": 15780
+    },
+    {
+      "id": "177f38cb84a1800ca7baf3cd548d67b9",
+      "title": "各地、各族命名方式",
+      "status": "active-with-author-decisions",
+      "start": 15781,
+      "end": 15840
+    },
+    {
+      "id": "3da7064c503a4df9bad38ff1c76c629b",
+      "title": "生活情形",
+      "status": "active-with-author-decisions",
+      "start": 15841,
+      "end": 15878
+    },
+    {
+      "id": "179f38cb84a1807c98b4dd5110309f2c",
+      "title": "民間故事與傳說",
+      "status": "active-with-author-decisions",
+      "start": 15879,
+      "end": 15886
+    },
+    {
+      "id": "8685e79b271042bfba50bcaf8ce37b46",
+      "title": "犯罪&治安維護",
+      "status": "active-with-author-decisions",
+      "start": 15887,
+      "end": 15965
+    },
+    {
+      "id": "40ae611d6e1140ecbaa8ed5044ab5fea",
+      "title": "宗教信仰",
+      "status": "active-with-author-decisions",
+      "start": 15966,
+      "end": 16053
+    },
+    {
+      "id": "b7f35ba30d534fc7b3465bff224e6de0",
+      "title": "黑市",
+      "status": "active-with-author-decisions",
+      "start": 16054,
+      "end": 16065
+    },
+    {
+      "id": "10cf38cb84a180649482ce04f40fdfa1",
+      "title": "瑟爾芙洛娜教（職業與燈塔女神教）",
+      "status": "active-with-author-decisions",
+      "start": 16066,
+      "end": 16077
+    },
+    {
+      "id": "10cf38cb84a180809a8ed9d47d8f2ed0",
+      "title": "艾爾戈瑞斯教（戰爭與享樂之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16078,
+      "end": 16087
+    },
+    {
+      "id": "10cf38cb84a1801aa3d3d415dee454e5",
+      "title": "瑞堯圖赫拓教（建設與豐饒之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16088,
+      "end": 16097
+    },
+    {
+      "id": "10cf38cb84a180f78d1cd816bae5c5c6",
+      "title": "伊薇莉菲婭教（愛、欲與美之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16098,
+      "end": 16107
+    },
+    {
+      "id": "10cf38cb84a180a5ad6ec1c18e88d6eb",
+      "title": "泰金奧德蒙教（財富、貿易與權力之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16108,
+      "end": 16117
+    },
+    {
+      "id": "10cf38cb84a180cc8daed4e1a3a3985a",
+      "title": "弗雷托里恩教（自由與自我之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16118,
+      "end": 16127
+    },
+    {
+      "id": "10cf38cb84a18027be17d89078b4cb33",
+      "title": "賽蓮諾拉教（和平與驚喜之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16128,
+      "end": 16137
+    },
+    {
+      "id": "10cf38cb84a180a2b0a5d9620f3a7f2d",
+      "title": "馮卡洛狄教（旅行與狩獵之神）",
+      "status": "active-with-author-decisions",
+      "start": 16138,
+      "end": 16147
+    },
+    {
+      "id": "10cf38cb84a180068723c2d25ab037b8",
+      "title": "諦紫辰教（星龍鳳神&究明之神教）",
+      "status": "active-with-author-decisions",
+      "start": 16148,
+      "end": 16155
+    },
+    {
+      "id": "10cf38cb84a180318dedfd72eccf16e8",
+      "title": "佩樂伊奇（遊戲與幽默之神）",
+      "status": "active-with-author-decisions",
+      "start": 16156,
+      "end": 16165
+    },
+    {
+      "id": "10cf38cb84a1803ba74ad389d5b0db75",
+      "title": "古雷維克斯（貪婪與掠奪之魔神）",
+      "status": "active-with-author-decisions",
+      "start": 16166,
+      "end": 16175
+    },
+    {
+      "id": "10cf38cb84a18095a4a0ee1d243fb8d1",
+      "title": "巴羅庫肆（暴食與虐殺之魔神）",
+      "status": "active-with-author-decisions",
+      "start": 16176,
+      "end": 16185
+    },
+    {
+      "id": "10cf38cb84a1802191bcdc17d350b0c4",
+      "title": "貝拉詭達（背叛與虛偽之魔神）",
+      "status": "active-with-author-decisions",
+      "start": 16186,
+      "end": 16195
+    },
+    {
+      "id": "16ff38cb84a18002b036e2926da59299",
+      "title": "鬼族黑市",
+      "status": "active-with-author-decisions",
+      "start": 16196,
+      "end": 16223
+    },
+    {
+      "id": "10af38cb84a180709c3edcce97e0326d",
+      "title": "她的Gpt命名由來",
+      "status": "disabled",
+      "start": 16224,
+      "end": 16228
+    },
+    {
+      "id": "105f38cb84a1807ebc3edc8fbfde5507",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16229,
+      "end": 16233
+    },
+    {
+      "id": "7fc0e0865e6a465c9238a580ef865a3d",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16234,
+      "end": 16238
+    },
+    {
+      "id": "105f38cb84a180f482b9c1f0b02757e1",
+      "title": "她的GPT命名由來",
+      "status": "disabled",
+      "start": 16239,
+      "end": 16243
+    },
+    {
+      "id": "10af38cb84a180b08a67f0e9edf12538",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16244,
+      "end": 16248
+    },
+    {
+      "id": "be7cf9e63f664d50833e118244b67b14",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16249,
+      "end": 16253
+    },
+    {
+      "id": "10bf38cb84a1801ab6b9c426c468706d",
+      "title": "她的GPT命名由來",
+      "status": "disabled",
+      "start": 16254,
+      "end": 16258
+    },
+    {
+      "id": "10bf38cb84a18098ba13f11f1f272b6b",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16259,
+      "end": 16263
+    },
+    {
+      "id": "1ef864eeb88143cba49a134dd59d7ca0",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16264,
+      "end": 16268
+    },
+    {
+      "id": "10bf38cb84a18059be3fdf8b539a7660",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16269,
+      "end": 16273
+    },
+    {
+      "id": "e044ab6c078b4bc0b759660e1bc55576",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16274,
+      "end": 16278
+    },
+    {
+      "id": "10bf38cb84a18007a59ae8f8bace630c",
+      "title": "他的GPT命名由來",
+      "status": "disabled",
+      "start": 16279,
+      "end": 16283
+    },
+    {
+      "id": "98620fec18ef4ebab6edc6e2f65c810d",
+      "title": "機構&設施",
+      "status": "active-with-author-decisions",
+      "start": 16284,
+      "end": 16343
+    },
+    {
+      "id": "16df38cb84a180feb885fa0220200259",
+      "title": "修煉相關—部份來自文字修仙遊戲",
+      "status": "active-with-author-decisions",
+      "start": 16344,
+      "end": 16359
+    },
+    {
+      "id": "f0e22d1f45414a1f823f23b85df34356",
+      "title": "修煉體系日常生活相關",
+      "status": "active-with-author-decisions",
+      "start": 16360,
+      "end": 16379
+    },
+    {
+      "id": "16df38cb84a1807c8035e1ae76874110",
+      "title": "煉金與寵獸相關—部份來自文字修仙遊戲",
+      "status": "active-with-author-decisions",
+      "start": 16380,
+      "end": 16395
+    },
+    {
+      "id": "16df38cb84a180c59c42c475f80c48e3",
+      "title": "支配體系日常生活相關",
+      "status": "active-with-author-decisions",
+      "start": 16396,
+      "end": 16403
+    },
+    {
+      "id": "34335550b8f246bf8d57a69ba32ad630",
+      "title": "英靈殿",
+      "status": "active-with-author-decisions",
+      "start": 16404,
+      "end": 16411
+    },
+    {
+      "id": "6961c218e5604c6ba776f3586fcf4d15",
+      "title": "聖皇教堂",
+      "status": "active-with-author-decisions",
+      "start": 16412,
+      "end": 16419
+    },
+    {
+      "id": "16df38cb84a18059b23cd5c8b19aecae",
+      "title": "機戰神相關—部份來自文字修仙遊戲",
+      "status": "active-with-author-decisions",
+      "start": 16420,
+      "end": 16435
+    },
+    {
+      "id": "7505c1692e004e03a67533e5986fb2a5",
+      "title": "科技體系日常生活相關",
+      "status": "active-with-author-decisions",
+      "start": 16436,
+      "end": 16447
+    },
+    {
+      "id": "6df7cca7a2d841ff80a66ac8272318a0",
+      "title": "萬事通酒樓",
+      "status": "active-with-author-decisions",
+      "start": 16448,
+      "end": 16461
+    },
+    {
+      "id": "c379ef25f5564fd4b43c876a8e11cf10",
+      "title": "星盟銀行(金樓)",
+      "status": "active-with-author-decisions",
+      "start": 16462,
+      "end": 16479
+    },
+    {
+      "id": "16df38cb84a1809a92c4d699268dc321",
+      "title": "修煉體系職業公會",
+      "status": "active-with-author-decisions",
+      "start": 16480,
+      "end": 16491
+    },
+    {
+      "id": "8f4c349ae78447dd968f03011acf8c1a",
+      "title": "支配體系職業公會",
+      "status": "active-with-author-decisions",
+      "start": 16492,
+      "end": 16499
+    },
+    {
+      "id": "16df38cb84a180ad9fb8f9ad41b24a21",
+      "title": "科技體系職業公會",
+      "status": "active-with-author-decisions",
+      "start": 16500,
+      "end": 16507
+    },
+    {
+      "id": "884c92d077a7478cb97412dcbc00343d",
+      "title": "天輝星盟職業公會",
+      "status": "active-with-author-decisions",
+      "start": 16508,
+      "end": 16519
+    },
+    {
+      "id": "0eb76fa015f54868a7a9c56c08478bb7",
+      "title": "老仙丹藥坊",
+      "status": "active-with-author-decisions",
+      "start": 16520,
+      "end": 16527
+    },
+    {
+      "id": "988b39c9513e41bba09907636530e019",
+      "title": "九轉神功閣",
+      "status": "active-with-author-decisions",
+      "start": 16528,
+      "end": 16535
+    },
+    {
+      "id": "c06055b0410c4745b33f374ae3c56f48",
+      "title": "阿明奇物攤",
+      "status": "active-with-author-decisions",
+      "start": 16536,
+      "end": 16545
+    },
+    {
+      "id": "cdaab743b66044c0bdedf836687827b3",
+      "title": "星砂法寶樓",
+      "status": "active-with-author-decisions",
+      "start": 16546,
+      "end": 16553
+    },
+    {
+      "id": "c1bbd66a4443414db277436ade1591ce",
+      "title": "佩恩煉金閣",
+      "status": "active-with-author-decisions",
+      "start": 16554,
+      "end": 16561
+    },
+    {
+      "id": "9149700df53d46ff939c7af4d74a5a8e",
+      "title": "精靈寵獸店",
+      "status": "active-with-author-decisions",
+      "start": 16562,
+      "end": 16569
+    },
+    {
+      "id": "ba4466e871ad4adda2f005415b3b5743",
+      "title": "眾生靈契店",
+      "status": "active-with-author-decisions",
+      "start": 16570,
+      "end": 16577
+    },
+    {
+      "id": "6e4ba174b900428bb31088536c6e6894",
+      "title": "女神轉職臺",
+      "status": "active-with-author-decisions",
+      "start": 16578,
+      "end": 16585
+    },
+    {
+      "id": "5b75e278f67f47fc8b2092b98ed8b77c",
+      "title": "量子武器行",
+      "status": "active-with-author-decisions",
+      "start": 16586,
+      "end": 16593
+    },
+    {
+      "id": "dbcc2bb5ee7c4b6ea742cfc184a3335b",
+      "title": "生化實驗所",
+      "status": "active-with-author-decisions",
+      "start": 16594,
+      "end": 16601
+    },
+    {
+      "id": "bcb1a6035cab494fa157180d5346cb1a",
+      "title": "機鎧定製廠",
+      "status": "active-with-author-decisions",
+      "start": 16602,
+      "end": 16609
+    },
+    {
+      "id": "2be8bbe30062464bbc7d8aee1f889926",
+      "title": "能源壁壘室",
+      "status": "active-with-author-decisions",
+      "start": 16610,
+      "end": 16619
+    },
+    {
+      "id": "6daa68dde1bd48e091b391d1574639b5",
+      "title": "工作",
+      "status": "active-with-author-decisions",
+      "start": 16620,
+      "end": 16687
+    },
+    {
+      "id": "eb7d239e7c324f3c89b50247ac16ca79",
+      "title": "傭兵",
+      "status": "active-with-author-decisions",
+      "start": 16688,
+      "end": 16697
+    },
+    {
+      "id": "3473b39a3b1e4d3cb712b91bcd484bfb",
+      "title": "各地食物",
+      "status": "active-with-author-decisions",
+      "start": 16698,
+      "end": 16739
+    },
+    {
+      "id": "36fe97771da34ebd8110586c3e9ff1ae",
+      "title": "文字修仙遊戲食物描述",
+      "status": "active-with-author-decisions",
+      "start": 16740,
+      "end": 16751
+    },
+    {
+      "id": "17df38cb84a18074b8b3e34efbcd66de",
+      "title": "特別菜單",
+      "status": "active-with-author-decisions",
+      "start": 16752,
+      "end": 16761
+    },
+    {
+      "id": "51d6b850b7ea42a9ba3a816020e1884f",
+      "title": "特廚殿美食榜",
+      "status": "active-with-author-decisions",
+      "start": 16762,
+      "end": 16795
+    },
+    {
+      "id": "2fa60b45b50049a0bd629e35f9783d2e",
+      "title": "修煉體系貴族食物",
+      "status": "active-with-author-decisions",
+      "start": 16796,
+      "end": 16803
+    },
+    {
+      "id": "a43a6e7907394c10acac3abdbebb1c80",
+      "title": "修煉體系平民美食",
+      "status": "active-with-author-decisions",
+      "start": 16804,
+      "end": 16843
+    },
+    {
+      "id": "132f67e810b54c76837095e07897440f",
+      "title": "支配體系貴族食物",
+      "status": "active-with-author-decisions",
+      "start": 16844,
+      "end": 16851
+    },
+    {
+      "id": "21ea3d393cb547949efeea462d720995",
+      "title": "支配體系平民美食",
+      "status": "active-with-author-decisions",
+      "start": 16852,
+      "end": 16888
+    },
+    {
+      "id": "ed099e04939a4c0db8e30be349ece3a7",
+      "title": "科技體系貴族食物",
+      "status": "active-with-author-decisions",
+      "start": 16889,
+      "end": 16896
+    },
+    {
+      "id": "3a898ba6b29342bab044a0629aa8d01a",
+      "title": "科技體系平民美食",
+      "status": "active-with-author-decisions",
+      "start": 16897,
+      "end": 16928
+    },
+    {
+      "id": "ea506f3f75f541f19fc88e9770a7e457",
+      "title": "精怪體系食物",
+      "status": "active-with-author-decisions",
+      "start": 16929,
+      "end": 16936
+    },
+    {
+      "id": "d5d92c1ffc88486a8a551ba1a9017f0b",
+      "title": "萬獸體系食物",
+      "status": "active-with-author-decisions",
+      "start": 16937,
+      "end": 16952
+    },
+    {
+      "id": "ea06325ee1a14c4e94131a5795c42f0c",
+      "title": "甜品",
+      "status": "active-with-author-decisions",
+      "start": 16953,
+      "end": 17026
+    },
+    {
+      "id": "9e01e32871ce4198af1c04aae231afe3",
+      "title": "正餐",
+      "status": "active-with-author-decisions",
+      "start": 17027,
+      "end": 17119
+    },
+    {
+      "id": "5fd99b53299c4b3499fcac9b896d8158",
+      "title": "裝扮",
+      "status": "active-with-author-decisions",
+      "start": 17120,
+      "end": 17231
+    },
+    {
+      "id": "2def38cb84a180a2a380ece7dddb6e39",
+      "title": "魔道具",
+      "status": "active-with-author-decisions",
+      "start": 17232,
+      "end": 17243
+    },
+    {
+      "id": "ed53f679b5fb4a88b1f63da82db4627d",
+      "title": "建築",
+      "status": "active-with-author-decisions",
+      "start": 17244,
+      "end": 17293
+    },
+    {
+      "id": "913a0b2c0e724865bb8cae9282c378a0",
+      "title": "交通＆傳訊",
+      "status": "active-with-author-decisions",
+      "start": 17294,
+      "end": 17331
+    },
+    {
+      "id": "49e32768d0634523bdd11b891018d4a5",
+      "title": "教育",
+      "status": "active-with-author-decisions",
+      "start": 17332,
+      "end": 17399
+    },
+    {
+      "id": "d84bb13f9236437881bd454f2e28755e",
+      "title": "娛樂",
+      "status": "active-with-author-decisions",
+      "start": 17400,
+      "end": 17477
+    },
+    {
+      "id": "543d80c25a9b46c29b19bf14523af931",
+      "title": "青舞樓",
+      "status": "active-with-author-decisions",
+      "start": 17478,
+      "end": 17505
+    },
+    {
+      "id": "8e082c56b36a41318d9bb3772a5e97f2",
+      "title": "賭場",
+      "status": "active-with-author-decisions",
+      "start": 17506,
+      "end": 17513
+    },
+    {
+      "id": "406a5fa05e754f29bdf7b6a85bf0ad8e",
+      "title": "比武場",
+      "status": "active-with-author-decisions",
+      "start": 17514,
+      "end": 17521
+    },
+    {
+      "id": "0b61849925454cca844cf0a822b6b7ea",
+      "title": "酒樓",
+      "status": "active-with-author-decisions",
+      "start": 17522,
+      "end": 17533
+    },
+    {
+      "id": "56cada4285da4235b6beed4b692df40f",
+      "title": "金鑼瓦舍",
+      "status": "active-with-author-decisions",
+      "start": 17534,
+      "end": 17553
+    },
+    {
+      "id": "170f38cb84a180778f54d8ccbd3ede82",
+      "title": "燈會",
+      "status": "active-with-author-decisions",
+      "start": 17554,
+      "end": 17561
+    },
+    {
+      "id": "170f38cb84a180268305eb0fcac996da",
+      "title": "遊園山水",
+      "status": "active-with-author-decisions",
+      "start": 17562,
+      "end": 17569
+    },
+    {
+      "id": "b75f1bd07f3d44bdbf6cf1b4dd3e3d61",
+      "title": "異族風俗店",
+      "status": "active-with-author-decisions",
+      "start": 17570,
+      "end": 17595
+    },
+    {
+      "id": "43d363a6c0e14a7f8eaaf1030b20b059",
+      "title": "迷宮＆地下城模擬",
+      "status": "active-with-author-decisions",
+      "start": 17596,
+      "end": 17603
+    },
+    {
+      "id": "170f38cb84a180a5974df3b856ffbab7",
+      "title": "競技場&鬥法賽",
+      "status": "active-with-author-decisions",
+      "start": 17604,
+      "end": 17611
+    },
+    {
+      "id": "170f38cb84a180cf8bbfeafcf3bb49f3",
+      "title": "溫泉",
+      "status": "active-with-author-decisions",
+      "start": 17612,
+      "end": 17619
+    },
+    {
+      "id": "170f38cb84a18041bd2fd7b9c8dfd852",
+      "title": "馬戲團&劇場",
+      "status": "active-with-author-decisions",
+      "start": 17620,
+      "end": 17627
+    },
+    {
+      "id": "170f38cb84a18023baf4f79ee860f935",
+      "title": "宴廳",
+      "status": "active-with-author-decisions",
+      "start": 17628,
+      "end": 17635
+    },
+    {
+      "id": "170f38cb84a180dc90e5e3b38c69d7cc",
+      "title": "鬥獸場",
+      "status": "active-with-author-decisions",
+      "start": 17636,
+      "end": 17643
+    },
+    {
+      "id": "47f9bbd2a6ad483e8e1e12e854e95763",
+      "title": "夜店",
+      "status": "active-with-author-decisions",
+      "start": 17644,
+      "end": 17651
+    },
+    {
+      "id": "d781e995f59741c5ace9b99906a7be57",
+      "title": "虛擬實境",
+      "status": "active-with-author-decisions",
+      "start": 17652,
+      "end": 17659
+    },
+    {
+      "id": "20f5c0f9719c40c0bac197fc11c8ffb4",
+      "title": "演唱會",
+      "status": "active-with-author-decisions",
+      "start": 17660,
+      "end": 17667
+    },
+    {
+      "id": "3d66c5e791aa4fe7bf5a4af48f553343",
+      "title": "遊樂園",
+      "status": "active-with-author-decisions",
+      "start": 17668,
+      "end": 17675
+    },
+    {
+      "id": "22f30c4fee0f4ad8b0854b46545bc1b0",
+      "title": "賞煙花",
+      "status": "active-with-author-decisions",
+      "start": 17676,
+      "end": 17683
+    },
+    {
+      "id": "84f2be8dab314b04b59341d9d09b4e8e",
+      "title": "賞風景",
+      "status": "active-with-author-decisions",
+      "start": 17684,
+      "end": 17691
+    },
+    {
+      "id": "16ff38cb84a180a99445c68628c6fc50",
+      "title": "民間童玩",
+      "status": "active-with-author-decisions",
+      "start": 17692,
+      "end": 17701
+    },
+    {
+      "id": "16ff38cb84a180f1b2dfe355bbc6312d",
+      "title": "戲曲（文字修仙遊戲）",
+      "status": "active-with-author-decisions",
+      "start": 17702,
+      "end": 17724
+    },
+    {
+      "id": "16ff38cb84a1804e8b13fdaee614cf47",
+      "title": "技藝（文字修仙遊戲）",
+      "status": "active-with-author-decisions",
+      "start": 17725,
+      "end": 17749
+    },
+    {
+      "id": "4c86156245ca44f2b0b02aebc9a93e99",
+      "title": "經濟貿易",
+      "status": "active-with-author-decisions",
+      "start": 17750,
+      "end": 17760
+    }
+  ],
+  "excluded_ranges": [],
+  "note": "公開衍生版，原稿不包含於本包；此處來源路徑相對套件目錄。"
+}

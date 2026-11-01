@@ -1,0 +1,19 @@
+# 玩家／主持存檔與執行暫存不公開
+campaigns/
+**/campaigns/
+**/history/
+**/state.json
+**/state.lock
+**/state.tmp
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+test-isolated-*/
+**/test-isolated-*/
+dist/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+interface:
+  display_name: "蒼究世界｜雙模式冒險"
+  short_description: "以作者正典主持自由故事冒險與命運RPG，支援角色面板、統一判定及存讀檔"
+  default_prompt: "使用 $cangjiu-world 開始冒險，先讓我選擇遊玩模式。"
