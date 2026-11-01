@@ -4,7 +4,7 @@
 
 ## 開始遊玩
 
-1. 下載本專案的[文字匯入檔](蒼究世界_匯入即玩_v2.1.txt)（開啟檔案後使用下載按鈕），或從[Releases](https://github.com/tanyangbrocks/Cang---Novel---game/releases)取得已發布版本。尚無Release時可先下載repo中的TXT。
+1. 下載本專案的[文字匯入檔](蒼究世界_匯入即玩_v2.2.txt)（開啟檔案後使用下載按鈕），或從[Releases](https://github.com/tanyangbrocks/Cang---Novel---game/releases)取得已發布版本。尚無Release時可先下載repo中的TXT。
 2. 在新的ChatGPT聊天上傳TXT，再傳送：
 
    > 請以這份檔案作為《蒼究世界》的遊戲規則與正典，載入後先讓我選擇「沉浸式故事冒險」或「沉浸式命運RPG」。
@@ -40,9 +40,9 @@ python tools/build_release.py
 
 產生的ZIP放在`dist/`，不提交執行存檔。修改已公開正典並完成審閱後，可執行`python tools/build_release.py --refresh-index`重新標定索引與來源指紋，再執行檢查。打包不會自行發布GitHub Release。
 
-## 開發中的需求
+## RPG時間系統（2.2）
 
-下一階段為RPG的[自由時間與特殊情境](docs/rpg-time-design.md)：類人體系每月一個時間單位，依狀態取得行動點；特殊情境持續應對至結束。這份需求已保存，但行動點管理、活動成本及跨月自動結算尚未加入v2.1工具，不能把設計文件當作已完成程式。
+已實作[自由時間與特殊情境](cangjiu-world/references/rpg-time.md)：每月依健康與疲勞計算AP，活動分開記錄成本及耗時；支援活動暫停、巢狀情境、跨月刷新、年齡與存讀檔。故事模式維持自由敘事。
 
 ## 權利
 

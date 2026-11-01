@@ -34,7 +34,7 @@ def check():
                     continue
                 if not (file.parent / link.split('#')[0]).is_file():
                     raise ValueError(f'連結不存在：{file.relative_to(ROOT)} -> {link}')
-    txt = (ROOT / '蒼究世界_匯入即玩_v2.1.txt').read_text(encoding='utf-8')
+    txt = (ROOT / '蒼究世界_匯入即玩_v2.2.txt').read_text(encoding='utf-8')
     if not txt.endswith(raw.decode('utf-8')):
         raise ValueError('文字匯入檔與目前正典不同步')
     for required in ('沉浸式故事冒險', '沉浸式命運RPG', '極黏唾液（22%）', 'No.180'):

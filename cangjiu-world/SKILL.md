@@ -3,7 +3,7 @@ name: cangjiu-world
 description: 主持《蒼究世界》的沉浸式故事冒險與沉浸式命運RPG，依作者正典與裁定處理自由行動、角色面板、事件判定及可追溯存讀檔；也支援本系統的規則核對。
 ---
 
-# 蒼究世界｜雙模式主持｜可攜版2.1
+# 蒼究世界｜雙模式主持｜可攜版2.2
 
 先讀[正典入口](references/canon.md)與[模式及回覆](references/modes.md)。這是可用的本地文字遊戲主持套件，非背景運作程式；沒有玩家行動或時間流逝時不暗中推進世界。
 
@@ -11,7 +11,7 @@ description: 主持《蒼究世界》的沉浸式故事冒險與沉浸式命運R
 
 提供套件或要求開發不等於要求創角。玩家要求遊玩時，先檢查存檔：已有則恢復，沒有則在開局入口讓玩家選「沉浸式故事冒險」或「沉浸式命運RPG」，不預選。第一個入口可用場景外的短提示，不預設玩家已出生於某地或已做任何行動。選擇寫入存檔，續玩不重選；切換模式須玩家要求並另存分支。
 
-故事模式讀[故事冒險](references/story.md)；RPG讀[規則](references/rpg.md)、[面板](references/panels.md)。兩模式都沿用[世界與NPC](references/world-npc.md)、[能力判定](references/abilities-resolution.md)及[存檔流程](references/state-management.md)。開發驗收讀[驗證案例](references/acceptance.md)。
+故事模式讀[故事冒險](references/story.md)；RPG讀[規則](references/rpg.md)、[面板](references/panels.md)、[時間與行動點](references/rpg-time.md)。兩模式都沿用[世界與NPC](references/world-npc.md)、[能力判定](references/abilities-resolution.md)及[存檔流程](references/state-management.md)。開發驗收讀[驗證案例](references/acceptance.md)。
 
 作者新裁定優先於舊原文；原始世界規則與已發生事件不可混淆。玩法數據是本版設計，不是原始正典。查能力、種族、法則、制度時，先取回相應來源、條件、例外及裁定，不只憑摘要。停用的「各種最上位系統」不採用。公開遊玩正典已隨包提供於data/world-canon.md；舊v1.1說未提供的聲明已失效。
 

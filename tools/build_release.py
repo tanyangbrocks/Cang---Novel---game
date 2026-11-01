@@ -8,8 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PKG = ROOT / 'cangjiu-world'
-TXT = ROOT / '蒼究世界_匯入即玩_v2.1.txt'
-REFERENCES = ('modes.md', 'story.md', 'rpg.md', 'panels.md', 'author-decisions.md', 'world-npc.md',
+TXT = ROOT / '蒼究世界_匯入即玩_v2.2.txt'
+REFERENCES = ('modes.md', 'story.md', 'rpg.md', 'rpg-time.md', 'panels.md', 'author-decisions.md', 'world-npc.md',
               'abilities-resolution.md', 'state-template.md', 'content-boundaries.md')
 
 
@@ -61,7 +61,7 @@ def main():
     check()
     out = ROOT / 'dist'
     out.mkdir(exist_ok=True)
-    target = out / 'cangjiu-world-v2.1-public.zip'
+    target = out / 'cangjiu-world-v2.2-public.zip'
     with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED) as archive:
         for file in sorted(PKG.rglob('*')):
             if file.is_file() and '__pycache__' not in file.parts and not any(p.startswith('test-isolated-') for p in file.parts):

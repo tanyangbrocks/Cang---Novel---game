@@ -7,10 +7,15 @@ import math
 import os
 import re
 import secrets
+import sys
 from contextlib import contextmanager
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import time_rules
+
 VERSION = '2.0'
+RULES_VERSION = '2.2'
 ATTRS = ('顏值', '智力', '體質', '力量', '敏捷', '感知', '意志', '魅力')
 SKILLS = ('觀察', '交涉', '潛行', '野外求生', '閱讀演算', '急救', '武器基礎', '工藝')
 DEFAULT_ROOT = Path(__file__).resolve().parents[2] / 'campaigns'
@@ -128,6 +133,9 @@ def validate_snapshot(s):
         require(item['owner'] in s['entities'] or item['owner'] == 'world', '物品持有者不存在')
     if s['phase'] == 'playing':
         require(s['scene']['location'] == s['entities']['player']['location'], '場景與玩家位置不一致')
+    if s.get('rpg_time') is not None:
+        require(s['mode'] == 'rpg' and s['phase'] == 'playing', '故事模式或創角階段不能套用RPG行動點')
+        time_rules.validate(s['rpg_time'], s['world_seconds'])
 
 
 def verify(state):
@@ -181,7 +189,7 @@ def new_state(campaign, mode, name='未命名'):
             'scene': {'location': '尚未開局', 'summary': '等待創角與配點確認', 'choices': []}, 'entities': {'player': player},
             'items': {}, 'relations': {}, 'reputation': {}, 'additions': [], 'pending': [], 'used_checks': []}
     manifest = json.loads(MANIFEST.read_text(encoding='utf-8'))
-    return {'schema_version': VERSION, 'campaign_id': campaign, 'rules_version': VERSION, 'canon_sha256': manifest['sha256'], 'revision': 0,
+    return {'schema_version': VERSION, 'campaign_id': campaign, 'rules_version': RULES_VERSION, 'canon_sha256': manifest['sha256'], 'revision': 0,
             'initial': copy.deepcopy(snap), 'snapshot': snap, 'events': [], 'checks': {}}
 
 
@@ -219,6 +227,7 @@ def apply(state, command, data, roller=None):
         entities['player']['identity'] = data.get('identity', '普通居民')
         changes = {'entities': entities, 'phase': 'playing', 'scene': data['scene']}
         if s['mode'] == 'rpg':
+            changes['rpg_time'] = time_rules.initialize(entities['player'], s['world_seconds'], data.get('age_months'))
             changes['items'] = {key: {'name': name, 'quantity': qty, 'owner': 'player', 'location': '隨身', 'source': 'RPG開局方案2.0'} for key, name, qty in
                                 [('clothes', '基本衣物', 1), ('bag', '背包', 1), ('food', '普通口糧（日份）', 7), ('water', '水壺', 1)]}
     elif command == 'check':
@@ -236,6 +245,26 @@ def apply(state, command, data, roller=None):
         p = probability(data['attribute'], data['difficulty'], data.get('rank', 0), data.get('required_rank', 0), data.get('context', 0), data.get('luck', 10))
         roll = roller() if roller else secrets.randbelow(100) + 1
         result = {'probability': p, 'roll': roll, 'degree': resolve(p, roll)}
+    elif command == 'time':
+        require(s['phase'] == 'playing' and s['mode'] == 'rpg', '時間安排只適用已開局RPG')
+        require(not (set(state['checks']) - set(s['used_checks'])), '先結算未決檢定')
+        require(data.get('source_refs'), '時間安排需來源或玩法依據')
+        operation = data.get('operation')
+        if operation == 'setup':
+            require(s.get('rpg_time') is None, '既有月制不能重設以刷新行動點')
+            require(data.get('player_confirmed') is True, '舊存檔啟用月制需玩家確認')
+            changes['rpg_time'] = time_rules.initialize(s['entities']['player'], s['world_seconds'], data.get('age_months'))
+        elif operation == 'end-unit':
+            clock = s.get('rpg_time')
+            require(clock and not clock['situations'] and not clock['activity'], '先結束情境或活動再月結')
+            require(data.get('player_confirmed') is True and data.get('reason'), '跳至下月需玩家授權及事件核對')
+            delta = clock['unit_seconds'] - clock['unit_elapsed']
+            changes['world_seconds'] = s['world_seconds'] + delta
+            changes['rpg_time'] = time_rules.advance(clock, s['world_seconds'], delta, s['entities']['player'], s['entities']['player'])
+            changes['scene'] = dict(s['scene'], choices=[], summary=data.get('summary', '本時間單位已結束，等待安排下一個月。'))
+        else:
+            require(s.get('rpg_time') is not None, '舊存檔先setup以記錄月制基準')
+            changes['rpg_time'] = time_rules.transition(s['rpg_time'], operation, data, s['world_seconds'], s['entities']['player'])
     elif command == 'commit':
         require(s['phase'] == 'playing' and data.get('reason') and data.get('source_refs'), '事件需開局、原因與來源')
         delta = data.get('elapsed_seconds', 0)
@@ -275,6 +304,14 @@ def apply(state, command, data, roller=None):
         if 'scene' in data:
             require(data['scene']['location'] == entities['player'].get('location'), '場景位置與玩家不一致')
             changes['scene'] = data['scene']
+        if s['mode'] == 'rpg' and s.get('rpg_time') is not None:
+            clock = time_rules.advance(s['rpg_time'], s['world_seconds'], delta, s['entities']['player'], entities['player'])
+            if data.get('time_transition'):
+                action = data['time_transition']
+                clock = time_rules.transition(clock, action.get('operation'), action, s['world_seconds'] + delta, entities['player'])
+            changes['rpg_time'] = clock
+        else:
+            require(not data.get('time_transition'), '故事模式或未啟用月制不能提交RPG情境操作')
     else:
         raise ValueError('未知操作')
     trial = copy.deepcopy(s)
@@ -303,12 +340,15 @@ def visible_panel(state, section='面板'):
     else:
         require(section in selected, '未知面板')
         content = copy.deepcopy(selected[section])
-    return {'mode': s['mode'], 'section': section, 'content': content, 'world_seconds': s['world_seconds'], 'current_scene': copy.deepcopy(s['scene'])}
+    result = {'mode': s['mode'], 'section': section, 'content': content, 'world_seconds': s['world_seconds'], 'current_scene': copy.deepcopy(s['scene'])}
+    if s.get('rpg_time') is not None:
+        result['rpg_time'] = time_rules.public_clock(s['rpg_time'])
+    return result
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=('new', 'build', 'finalize', 'check', 'commit', 'panel', 'verify', 'export'))
+    parser.add_argument('command', choices=('new', 'build', 'finalize', 'check', 'commit', 'time', 'panel', 'verify', 'export'))
     parser.add_argument('--root', type=Path, default=DEFAULT_ROOT)
     parser.add_argument('--id', required=True)
     parser.add_argument('--data', type=Path, help='UTF-8 JSON操作檔，所有修改含event_id及expected_revision')
@@ -326,7 +366,7 @@ def main():
             state = new_state(args.id, args.mode, args.name)
             atomic(path, state)
         result = {'created': str(path), 'revision': 0, 'phase': 'creation'}
-    elif args.command in ('build', 'finalize', 'check', 'commit'):
+    elif args.command in ('build', 'finalize', 'check', 'commit', 'time'):
         require(args.data is not None, '需要--data JSON檔')
         data = json.loads(args.data.read_text(encoding='utf-8-sig'))
         with locked(path):

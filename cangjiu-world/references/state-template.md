@@ -2,7 +2,7 @@
 
 保存以下實際資料，不適用標不適用，未知標未確認；玩家可見與主持秘密分開。
 
-- schema_version / rules_version：2.0。
+- schema_version：2.0；rules_version：2.2。
 - save_id / parent_save_id / branch_id / 最後事件ID。
 - 遊玩模式story/rpg，創角或playing階段，創角方案與配點。
 - 正典版本指紋、作者裁定版本、停用來源ID。
@@ -18,3 +18,5 @@
 - 最後持久化範圍與尚未保存資料。
 
 從最後決策點接續，不重置傷勢與後果。結構化JSON存檔已有這些資料時不另建一份互相矛盾的主資料；文字摘要用於閱讀，不宣稱能無損還原遺失日誌。
+
+RPG另存[時間與行動點](rpg-time.md)的rpg_time完整欄位，包含活動剩餘耗時、已花AP、收益結算標記與巢狀情境；讀檔不重扣或刷新。
