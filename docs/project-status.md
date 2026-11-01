@@ -12,6 +12,8 @@
 
 ## 同步原則
 
+新增玩家呈現規則（modes.md）：保留簡短、符合氣氛且不洩露秘密的等待文字；不播報幕後核對。創角以精簡角色卡與必要問題為主，不向玩家傾倒正典核對、來源與開發備註。App自動處理標籤與摘要不屬於Skill可保證控制的範圍。
+
 專案位置、共用設定、程式進度與個別遊戲存檔是不同資料。各聊天開始時重新讀取可存取的最新文件；沒有工具就依使用者提供的檔案，不假裝同步。遊玩產生的事件屬於該局，不能自動升格為世界正典。作者新增裁定應另記並同步正式規則。
 
 驗證：python -m unittest discover -s cangjiu-world/tests -v；python tools/check_release.py；python tools/build_release.py。
